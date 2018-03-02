@@ -1,0 +1,10 @@
+C:\Users\D252874\OneDrive - ROC West-Brabant\Radius\leerjaar_1\p3\Napolean TBS\Napoleon-TBS\Napoleon-TBS\bin\Debug\Napoleon-TBS.exe.config
+C:\Users\D252874\OneDrive - ROC West-Brabant\Radius\leerjaar_1\p3\Napolean TBS\Napoleon-TBS\Napoleon-TBS\bin\Debug\Napoleon-TBS.exe
+C:\Users\D252874\OneDrive - ROC West-Brabant\Radius\leerjaar_1\p3\Napolean TBS\Napoleon-TBS\Napoleon-TBS\bin\Debug\Napoleon-TBS.pdb
+C:\Users\D252874\OneDrive - ROC West-Brabant\Radius\leerjaar_1\p3\Napolean TBS\Napoleon-TBS\Napoleon-TBS\obj\Debug\Napoleon-TBS.csprojResolveAssemblyReference.cache
+C:\Users\D252874\OneDrive - ROC West-Brabant\Radius\leerjaar_1\p3\Napolean TBS\Napoleon-TBS\Napoleon-TBS\obj\Debug\Napoleon_TBS.Form1.resources
+C:\Users\D252874\OneDrive - ROC West-Brabant\Radius\leerjaar_1\p3\Napolean TBS\Napoleon-TBS\Napoleon-TBS\obj\Debug\Napoleon_TBS.Properties.Resources.resources
+C:\Users\D252874\OneDrive - ROC West-Brabant\Radius\leerjaar_1\p3\Napolean TBS\Napoleon-TBS\Napoleon-TBS\obj\Debug\Napoleon-TBS.csproj.GenerateResource.Cache
+C:\Users\D252874\OneDrive - ROC West-Brabant\Radius\leerjaar_1\p3\Napolean TBS\Napoleon-TBS\Napoleon-TBS\obj\Debug\Napoleon-TBS.csproj.CoreCompileInputs.cache
+C:\Users\D252874\OneDrive - ROC West-Brabant\Radius\leerjaar_1\p3\Napolean TBS\Napoleon-TBS\Napoleon-TBS\obj\Debug\Napoleon-TBS.exe
+C:\Users\D252874\OneDrive - ROC West-Brabant\Radius\leerjaar_1\p3\Napolean TBS\Napoleon-TBS\Napoleon-TBS\obj\Debug\Napoleon-TBS.pdb
