@@ -61,56 +61,77 @@ namespace Napoleon_TBS
             LBL_unit8_name.Text = Convert.ToString(regiment8.GetName());
             LBL_unit9_name.Text = Convert.ToString(regiment9.GetName());
             LBL_unit10_name.Text = Convert.ToString(regiment10.GetName());
+
+           
+            PB_unit1_smoke.Visible = false;
+            PB_unit2_smoke.Visible = false;
+            PB_unit3_smoke.Visible = false;
+            PB_unit4_smoke.Visible = false;
+            PB_unit5_smoke.Visible = false;
+            PB_unit6_smoke.Visible = false;
+            PB_unit7_smoke.Visible = false;
+            PB_unit8_smoke.Visible = false;
+            PB_unit9_smoke.Visible = false;
+            PB_unit10_smoke.Visible = false;
+
         }
 
         private void BU_unit1_move_Click(object sender, EventArgs e)
         {
             
             PB_unit1.Location = new Point(PB_unit1.Location.X, PB_unit1.Location.Y - move);
+            PB_unit1_smoke.Location = new Point(PB_unit1_smoke.Location.X, PB_unit1_smoke.Location.Y - move);
         }
 
         private void BU_unit2_move_Click(object sender, EventArgs e)
         {
             PB_unit2.Location = new Point(PB_unit2.Location.X, PB_unit2.Location.Y - move);
+            PB_unit2_smoke.Location = new Point(PB_unit2_smoke.Location.X, PB_unit2_smoke.Location.Y - move);
         }
 
         private void BU_unit3_move_Click(object sender, EventArgs e)
         {
             PB_unit3.Location = new Point(PB_unit3.Location.X, PB_unit3.Location.Y - move);
+            PB_unit3_smoke.Location = new Point(PB_unit3_smoke.Location.X, PB_unit3_smoke.Location.Y - move);
         }
 
         private void BU_unit4_move_Click(object sender, EventArgs e)
         {
             PB_unit4.Location = new Point(PB_unit4.Location.X, PB_unit4.Location.Y - move);
+            PB_unit4_smoke.Location = new Point(PB_unit4_smoke.Location.X, PB_unit4_smoke.Location.Y - move);
 
         }
 
         private void BU_unit5_move_Click(object sender, EventArgs e)
         {
             PB_unit5.Location = new Point(PB_unit5.Location.X, PB_unit5.Location.Y - move);
+            PB_unit5_smoke.Location = new Point(PB_unit5_smoke.Location.X, PB_unit5_smoke.Location.Y - move);
 
         }
 
         private void BU_unit6_move_Click(object sender, EventArgs e)
         {
             PB_unit6.Location = new Point(PB_unit6.Location.X, PB_unit6.Location.Y - move);
+            PB_unit6_smoke.Location = new Point(PB_unit6_smoke.Location.X, PB_unit6_smoke.Location.Y - move);
 
         }
 
         private void BU_unit7_move_Click(object sender, EventArgs e)
         {
             PB_unit7.Location = new Point(PB_unit7.Location.X, PB_unit7.Location.Y - move);
-
+            PB_unit8_smoke.Location = new Point(PB_unit8_smoke.Location.X, PB_unit8_smoke.Location.Y - move);
         }
 
         private void BU_unit8_move_Click(object sender, EventArgs e)
         {
             PB_unit8.Location = new Point(PB_unit8.Location.X, PB_unit8.Location.Y - move);
+            PB_unit9_smoke.Location = new Point(PB_unit9_smoke.Location.X, PB_unit9_smoke.Location.Y - move);
         }
 
         private void BU_unit9_move_Click(object sender, EventArgs e)
         {
             PB_unit9.Location = new Point(PB_unit9.Location.X, PB_unit9.Location.Y - move);
+            PB_unit10_smoke.Location = new Point(PB_unit10_smoke.Location.X, PB_unit10_smoke.Location.Y - move);
 
         }
 
