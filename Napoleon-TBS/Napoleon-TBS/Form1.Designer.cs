@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.LBL_unit1 = new System.Windows.Forms.Label();
             this.LBL_unit1_man = new System.Windows.Forms.Label();
@@ -79,16 +80,16 @@
             this.LBL_unit6_moral = new System.Windows.Forms.Label();
             this.LBL_unit6_man = new System.Windows.Forms.Label();
             this.LBL_unit6 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.PB_unit6 = new System.Windows.Forms.PictureBox();
+            this.PB_unit7 = new System.Windows.Forms.PictureBox();
+            this.PB_unit8 = new System.Windows.Forms.PictureBox();
+            this.PB_unit9 = new System.Windows.Forms.PictureBox();
+            this.PB_unit10 = new System.Windows.Forms.PictureBox();
+            this.PB_unit5 = new System.Windows.Forms.PictureBox();
+            this.PB_unit4 = new System.Windows.Forms.PictureBox();
+            this.PB_unit3 = new System.Windows.Forms.PictureBox();
+            this.PB_unit2 = new System.Windows.Forms.PictureBox();
+            this.PB_unit1 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
@@ -100,36 +101,37 @@
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            this.BU_unit1_move = new System.Windows.Forms.Button();
+            this.BU_unit2_move = new System.Windows.Forms.Button();
+            this.BU_unit3_move = new System.Windows.Forms.Button();
+            this.BU_unit4_move = new System.Windows.Forms.Button();
+            this.BU_unit5_move = new System.Windows.Forms.Button();
+            this.BU_unit6_move = new System.Windows.Forms.Button();
+            this.BU_unit7_move = new System.Windows.Forms.Button();
+            this.BU_unit8_move = new System.Windows.Forms.Button();
+            this.BU_unit9_move = new System.Windows.Forms.Button();
+            this.BU_unit10_move = new System.Windows.Forms.Button();
+            this.BU_unit1_shoot = new System.Windows.Forms.Button();
+            this.BU_unit2_shoot = new System.Windows.Forms.Button();
+            this.BU_unit3_shoot = new System.Windows.Forms.Button();
+            this.BU_unit4_shoot = new System.Windows.Forms.Button();
+            this.BU_unit5_shoot = new System.Windows.Forms.Button();
+            this.BU_unit6_shoot = new System.Windows.Forms.Button();
+            this.BU_unit7_shoot = new System.Windows.Forms.Button();
+            this.BU_unit8_shoot = new System.Windows.Forms.Button();
+            this.BU_unit9_shoot = new System.Windows.Forms.Button();
+            this.BU_unit10_shoot = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
@@ -593,95 +595,95 @@
             this.LBL_unit6.TabIndex = 25;
             this.LBL_unit6.Text = "unit 6";
             // 
-            // pictureBox1
+            // PB_unit6
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(450, 540);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox1.TabIndex = 50;
-            this.pictureBox1.TabStop = false;
+            this.PB_unit6.Image = ((System.Drawing.Image)(resources.GetObject("PB_unit6.Image")));
+            this.PB_unit6.Location = new System.Drawing.Point(450, 540);
+            this.PB_unit6.Name = "PB_unit6";
+            this.PB_unit6.Size = new System.Drawing.Size(63, 28);
+            this.PB_unit6.TabIndex = 50;
+            this.PB_unit6.TabStop = false;
             // 
-            // pictureBox2
+            // PB_unit7
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(519, 540);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox2.TabIndex = 51;
-            this.pictureBox2.TabStop = false;
+            this.PB_unit7.Image = ((System.Drawing.Image)(resources.GetObject("PB_unit7.Image")));
+            this.PB_unit7.Location = new System.Drawing.Point(519, 540);
+            this.PB_unit7.Name = "PB_unit7";
+            this.PB_unit7.Size = new System.Drawing.Size(63, 28);
+            this.PB_unit7.TabIndex = 51;
+            this.PB_unit7.TabStop = false;
             // 
-            // pictureBox3
+            // PB_unit8
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(588, 540);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox3.TabIndex = 52;
-            this.pictureBox3.TabStop = false;
+            this.PB_unit8.Image = ((System.Drawing.Image)(resources.GetObject("PB_unit8.Image")));
+            this.PB_unit8.Location = new System.Drawing.Point(588, 540);
+            this.PB_unit8.Name = "PB_unit8";
+            this.PB_unit8.Size = new System.Drawing.Size(63, 28);
+            this.PB_unit8.TabIndex = 52;
+            this.PB_unit8.TabStop = false;
             // 
-            // pictureBox4
+            // PB_unit9
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(657, 540);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox4.TabIndex = 53;
-            this.pictureBox4.TabStop = false;
+            this.PB_unit9.Image = ((System.Drawing.Image)(resources.GetObject("PB_unit9.Image")));
+            this.PB_unit9.Location = new System.Drawing.Point(657, 540);
+            this.PB_unit9.Name = "PB_unit9";
+            this.PB_unit9.Size = new System.Drawing.Size(63, 28);
+            this.PB_unit9.TabIndex = 53;
+            this.PB_unit9.TabStop = false;
             // 
-            // pictureBox5
+            // PB_unit10
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(726, 540);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox5.TabIndex = 54;
-            this.pictureBox5.TabStop = false;
+            this.PB_unit10.Image = ((System.Drawing.Image)(resources.GetObject("PB_unit10.Image")));
+            this.PB_unit10.Location = new System.Drawing.Point(726, 540);
+            this.PB_unit10.Name = "PB_unit10";
+            this.PB_unit10.Size = new System.Drawing.Size(63, 28);
+            this.PB_unit10.TabIndex = 54;
+            this.PB_unit10.TabStop = false;
             // 
-            // pictureBox6
+            // PB_unit5
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(377, 540);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox6.TabIndex = 59;
-            this.pictureBox6.TabStop = false;
+            this.PB_unit5.Image = ((System.Drawing.Image)(resources.GetObject("PB_unit5.Image")));
+            this.PB_unit5.Location = new System.Drawing.Point(377, 540);
+            this.PB_unit5.Name = "PB_unit5";
+            this.PB_unit5.Size = new System.Drawing.Size(63, 28);
+            this.PB_unit5.TabIndex = 59;
+            this.PB_unit5.TabStop = false;
             // 
-            // pictureBox7
+            // PB_unit4
             // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(308, 540);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox7.TabIndex = 58;
-            this.pictureBox7.TabStop = false;
+            this.PB_unit4.Image = ((System.Drawing.Image)(resources.GetObject("PB_unit4.Image")));
+            this.PB_unit4.Location = new System.Drawing.Point(308, 540);
+            this.PB_unit4.Name = "PB_unit4";
+            this.PB_unit4.Size = new System.Drawing.Size(63, 28);
+            this.PB_unit4.TabIndex = 58;
+            this.PB_unit4.TabStop = false;
             // 
-            // pictureBox8
+            // PB_unit3
             // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(239, 540);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox8.TabIndex = 57;
-            this.pictureBox8.TabStop = false;
+            this.PB_unit3.Image = ((System.Drawing.Image)(resources.GetObject("PB_unit3.Image")));
+            this.PB_unit3.Location = new System.Drawing.Point(239, 540);
+            this.PB_unit3.Name = "PB_unit3";
+            this.PB_unit3.Size = new System.Drawing.Size(63, 28);
+            this.PB_unit3.TabIndex = 57;
+            this.PB_unit3.TabStop = false;
             // 
-            // pictureBox9
+            // PB_unit2
             // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(170, 540);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox9.TabIndex = 56;
-            this.pictureBox9.TabStop = false;
+            this.PB_unit2.Image = ((System.Drawing.Image)(resources.GetObject("PB_unit2.Image")));
+            this.PB_unit2.Location = new System.Drawing.Point(170, 540);
+            this.PB_unit2.Name = "PB_unit2";
+            this.PB_unit2.Size = new System.Drawing.Size(63, 28);
+            this.PB_unit2.TabIndex = 56;
+            this.PB_unit2.TabStop = false;
             // 
-            // pictureBox10
+            // PB_unit1
             // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(101, 540);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox10.TabIndex = 55;
-            this.pictureBox10.TabStop = false;
+            this.PB_unit1.Image = ((System.Drawing.Image)(resources.GetObject("PB_unit1.Image")));
+            this.PB_unit1.Location = new System.Drawing.Point(101, 540);
+            this.PB_unit1.Name = "PB_unit1";
+            this.PB_unit1.Size = new System.Drawing.Size(63, 28);
+            this.PB_unit1.TabIndex = 55;
+            this.PB_unit1.TabStop = false;
             // 
             // pictureBox11
             // 
@@ -721,6 +723,7 @@
             // 
             // pictureBox15
             // 
+            this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
             this.pictureBox15.Location = new System.Drawing.Point(101, 37);
             this.pictureBox15.Name = "pictureBox15";
@@ -783,211 +786,221 @@
             this.pictureBox21.TabIndex = 70;
             this.pictureBox21.TabStop = false;
             // 
-            // button1
+            // BU_unit1_move
             // 
-            this.button1.Location = new System.Drawing.Point(890, 77);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 71;
-            this.button1.Text = "move";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BU_unit1_move.Location = new System.Drawing.Point(890, 77);
+            this.BU_unit1_move.Name = "BU_unit1_move";
+            this.BU_unit1_move.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit1_move.TabIndex = 71;
+            this.BU_unit1_move.Text = "move";
+            this.BU_unit1_move.UseVisualStyleBackColor = true;
+            this.BU_unit1_move.Click += new System.EventHandler(this.BU_unit1_move_Click);
             // 
-            // button2
+            // BU_unit2_move
             // 
-            this.button2.Location = new System.Drawing.Point(1072, 77);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 72;
-            this.button2.Text = "move";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BU_unit2_move.Location = new System.Drawing.Point(1072, 77);
+            this.BU_unit2_move.Name = "BU_unit2_move";
+            this.BU_unit2_move.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit2_move.TabIndex = 72;
+            this.BU_unit2_move.Text = "move";
+            this.BU_unit2_move.UseVisualStyleBackColor = true;
+            this.BU_unit2_move.Click += new System.EventHandler(this.BU_unit2_move_Click);
             // 
-            // button3
+            // BU_unit3_move
             // 
-            this.button3.Location = new System.Drawing.Point(1243, 77);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 73;
-            this.button3.Text = "move";
-            this.button3.UseVisualStyleBackColor = true;
+            this.BU_unit3_move.Location = new System.Drawing.Point(1243, 77);
+            this.BU_unit3_move.Name = "BU_unit3_move";
+            this.BU_unit3_move.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit3_move.TabIndex = 73;
+            this.BU_unit3_move.Text = "move";
+            this.BU_unit3_move.UseVisualStyleBackColor = true;
+            this.BU_unit3_move.Click += new System.EventHandler(this.BU_unit3_move_Click);
             // 
-            // button4
+            // BU_unit4_move
             // 
-            this.button4.Location = new System.Drawing.Point(1414, 77);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 74;
-            this.button4.Text = "move";
-            this.button4.UseVisualStyleBackColor = true;
+            this.BU_unit4_move.Location = new System.Drawing.Point(1414, 77);
+            this.BU_unit4_move.Name = "BU_unit4_move";
+            this.BU_unit4_move.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit4_move.TabIndex = 74;
+            this.BU_unit4_move.Text = "move";
+            this.BU_unit4_move.UseVisualStyleBackColor = true;
+            this.BU_unit4_move.Click += new System.EventHandler(this.BU_unit4_move_Click);
             // 
-            // button5
+            // BU_unit5_move
             // 
-            this.button5.Location = new System.Drawing.Point(1593, 77);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 75;
-            this.button5.Text = "move";
-            this.button5.UseVisualStyleBackColor = true;
+            this.BU_unit5_move.Location = new System.Drawing.Point(1593, 77);
+            this.BU_unit5_move.Name = "BU_unit5_move";
+            this.BU_unit5_move.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit5_move.TabIndex = 75;
+            this.BU_unit5_move.Text = "move";
+            this.BU_unit5_move.UseVisualStyleBackColor = true;
+            this.BU_unit5_move.Click += new System.EventHandler(this.BU_unit5_move_Click);
             // 
-            // button6
+            // BU_unit6_move
             // 
-            this.button6.Location = new System.Drawing.Point(890, 224);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 76;
-            this.button6.Text = "move";
-            this.button6.UseVisualStyleBackColor = true;
+            this.BU_unit6_move.Location = new System.Drawing.Point(890, 224);
+            this.BU_unit6_move.Name = "BU_unit6_move";
+            this.BU_unit6_move.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit6_move.TabIndex = 76;
+            this.BU_unit6_move.Text = "move";
+            this.BU_unit6_move.UseVisualStyleBackColor = true;
+            this.BU_unit6_move.Click += new System.EventHandler(this.BU_unit6_move_Click);
             // 
-            // button7
+            // BU_unit7_move
             // 
-            this.button7.Location = new System.Drawing.Point(1072, 224);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 77;
-            this.button7.Text = "move";
-            this.button7.UseVisualStyleBackColor = true;
+            this.BU_unit7_move.Location = new System.Drawing.Point(1072, 224);
+            this.BU_unit7_move.Name = "BU_unit7_move";
+            this.BU_unit7_move.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit7_move.TabIndex = 77;
+            this.BU_unit7_move.Text = "move";
+            this.BU_unit7_move.UseVisualStyleBackColor = true;
+            this.BU_unit7_move.Click += new System.EventHandler(this.BU_unit7_move_Click);
             // 
-            // button8
+            // BU_unit8_move
             // 
-            this.button8.Location = new System.Drawing.Point(1243, 224);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 78;
-            this.button8.Text = "move";
-            this.button8.UseVisualStyleBackColor = true;
+            this.BU_unit8_move.Location = new System.Drawing.Point(1243, 224);
+            this.BU_unit8_move.Name = "BU_unit8_move";
+            this.BU_unit8_move.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit8_move.TabIndex = 78;
+            this.BU_unit8_move.Text = "move";
+            this.BU_unit8_move.UseVisualStyleBackColor = true;
+            this.BU_unit8_move.Click += new System.EventHandler(this.BU_unit8_move_Click);
             // 
-            // button9
+            // BU_unit9_move
             // 
-            this.button9.Location = new System.Drawing.Point(1414, 224);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 79;
-            this.button9.Text = "move";
-            this.button9.UseVisualStyleBackColor = true;
+            this.BU_unit9_move.Location = new System.Drawing.Point(1414, 224);
+            this.BU_unit9_move.Name = "BU_unit9_move";
+            this.BU_unit9_move.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit9_move.TabIndex = 79;
+            this.BU_unit9_move.Text = "move";
+            this.BU_unit9_move.UseVisualStyleBackColor = true;
+            this.BU_unit9_move.Click += new System.EventHandler(this.BU_unit9_move_Click);
             // 
-            // button10
+            // BU_unit10_move
             // 
-            this.button10.Location = new System.Drawing.Point(1593, 224);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 80;
-            this.button10.Text = "move";
-            this.button10.UseVisualStyleBackColor = true;
+            this.BU_unit10_move.Location = new System.Drawing.Point(1593, 224);
+            this.BU_unit10_move.Name = "BU_unit10_move";
+            this.BU_unit10_move.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit10_move.TabIndex = 80;
+            this.BU_unit10_move.Text = "move";
+            this.BU_unit10_move.UseVisualStyleBackColor = true;
+            this.BU_unit10_move.Click += new System.EventHandler(this.BU_unit10_move_Click);
             // 
-            // button11
+            // BU_unit1_shoot
             // 
-            this.button11.Location = new System.Drawing.Point(890, 106);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 81;
-            this.button11.Text = "Shoot";
-            this.button11.UseVisualStyleBackColor = true;
+            this.BU_unit1_shoot.Location = new System.Drawing.Point(890, 106);
+            this.BU_unit1_shoot.Name = "BU_unit1_shoot";
+            this.BU_unit1_shoot.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit1_shoot.TabIndex = 81;
+            this.BU_unit1_shoot.Text = "Shoot";
+            this.BU_unit1_shoot.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // BU_unit2_shoot
             // 
-            this.button12.Location = new System.Drawing.Point(1072, 106);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 82;
-            this.button12.Text = "Shoot";
-            this.button12.UseVisualStyleBackColor = true;
+            this.BU_unit2_shoot.Location = new System.Drawing.Point(1072, 106);
+            this.BU_unit2_shoot.Name = "BU_unit2_shoot";
+            this.BU_unit2_shoot.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit2_shoot.TabIndex = 82;
+            this.BU_unit2_shoot.Text = "Shoot";
+            this.BU_unit2_shoot.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // BU_unit3_shoot
             // 
-            this.button13.Location = new System.Drawing.Point(1243, 106);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 83;
-            this.button13.Text = "Shoot";
-            this.button13.UseVisualStyleBackColor = true;
+            this.BU_unit3_shoot.Location = new System.Drawing.Point(1243, 106);
+            this.BU_unit3_shoot.Name = "BU_unit3_shoot";
+            this.BU_unit3_shoot.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit3_shoot.TabIndex = 83;
+            this.BU_unit3_shoot.Text = "Shoot";
+            this.BU_unit3_shoot.UseVisualStyleBackColor = true;
             // 
-            // button14
+            // BU_unit4_shoot
             // 
-            this.button14.Location = new System.Drawing.Point(1414, 106);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 23);
-            this.button14.TabIndex = 84;
-            this.button14.Text = "Shoot";
-            this.button14.UseVisualStyleBackColor = true;
+            this.BU_unit4_shoot.Location = new System.Drawing.Point(1414, 106);
+            this.BU_unit4_shoot.Name = "BU_unit4_shoot";
+            this.BU_unit4_shoot.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit4_shoot.TabIndex = 84;
+            this.BU_unit4_shoot.Text = "Shoot";
+            this.BU_unit4_shoot.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // BU_unit5_shoot
             // 
-            this.button15.Location = new System.Drawing.Point(1593, 106);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 23);
-            this.button15.TabIndex = 85;
-            this.button15.Text = "Shoot";
-            this.button15.UseVisualStyleBackColor = true;
+            this.BU_unit5_shoot.Location = new System.Drawing.Point(1593, 106);
+            this.BU_unit5_shoot.Name = "BU_unit5_shoot";
+            this.BU_unit5_shoot.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit5_shoot.TabIndex = 85;
+            this.BU_unit5_shoot.Text = "Shoot";
+            this.BU_unit5_shoot.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // BU_unit6_shoot
             // 
-            this.button16.Location = new System.Drawing.Point(890, 253);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 86;
-            this.button16.Text = "Shoot";
-            this.button16.UseVisualStyleBackColor = true;
+            this.BU_unit6_shoot.Location = new System.Drawing.Point(890, 253);
+            this.BU_unit6_shoot.Name = "BU_unit6_shoot";
+            this.BU_unit6_shoot.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit6_shoot.TabIndex = 86;
+            this.BU_unit6_shoot.Text = "Shoot";
+            this.BU_unit6_shoot.UseVisualStyleBackColor = true;
             // 
-            // button17
+            // BU_unit7_shoot
             // 
-            this.button17.Location = new System.Drawing.Point(1072, 253);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 23);
-            this.button17.TabIndex = 87;
-            this.button17.Text = "Shoot";
-            this.button17.UseVisualStyleBackColor = true;
+            this.BU_unit7_shoot.Location = new System.Drawing.Point(1072, 253);
+            this.BU_unit7_shoot.Name = "BU_unit7_shoot";
+            this.BU_unit7_shoot.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit7_shoot.TabIndex = 87;
+            this.BU_unit7_shoot.Text = "Shoot";
+            this.BU_unit7_shoot.UseVisualStyleBackColor = true;
             // 
-            // button18
+            // BU_unit8_shoot
             // 
-            this.button18.Location = new System.Drawing.Point(1243, 253);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 23);
-            this.button18.TabIndex = 88;
-            this.button18.Text = "Shoot";
-            this.button18.UseVisualStyleBackColor = true;
+            this.BU_unit8_shoot.Location = new System.Drawing.Point(1243, 253);
+            this.BU_unit8_shoot.Name = "BU_unit8_shoot";
+            this.BU_unit8_shoot.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit8_shoot.TabIndex = 88;
+            this.BU_unit8_shoot.Text = "Shoot";
+            this.BU_unit8_shoot.UseVisualStyleBackColor = true;
             // 
-            // button19
+            // BU_unit9_shoot
             // 
-            this.button19.Location = new System.Drawing.Point(1414, 253);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 23);
-            this.button19.TabIndex = 89;
-            this.button19.Text = "Shoot";
-            this.button19.UseVisualStyleBackColor = true;
+            this.BU_unit9_shoot.Location = new System.Drawing.Point(1414, 253);
+            this.BU_unit9_shoot.Name = "BU_unit9_shoot";
+            this.BU_unit9_shoot.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit9_shoot.TabIndex = 89;
+            this.BU_unit9_shoot.Text = "Shoot";
+            this.BU_unit9_shoot.UseVisualStyleBackColor = true;
             // 
-            // button20
+            // BU_unit10_shoot
             // 
-            this.button20.Location = new System.Drawing.Point(1593, 253);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 23);
-            this.button20.TabIndex = 90;
-            this.button20.Text = "Shoot";
-            this.button20.UseVisualStyleBackColor = true;
+            this.BU_unit10_shoot.Location = new System.Drawing.Point(1593, 253);
+            this.BU_unit10_shoot.Name = "BU_unit10_shoot";
+            this.BU_unit10_shoot.Size = new System.Drawing.Size(75, 23);
+            this.BU_unit10_shoot.TabIndex = 90;
+            this.BU_unit10_shoot.Text = "Shoot";
+            this.BU_unit10_shoot.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1902, 673);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BU_unit10_shoot);
+            this.Controls.Add(this.BU_unit9_shoot);
+            this.Controls.Add(this.BU_unit8_shoot);
+            this.Controls.Add(this.BU_unit7_shoot);
+            this.Controls.Add(this.BU_unit6_shoot);
+            this.Controls.Add(this.BU_unit5_shoot);
+            this.Controls.Add(this.BU_unit4_shoot);
+            this.Controls.Add(this.BU_unit3_shoot);
+            this.Controls.Add(this.BU_unit2_shoot);
+            this.Controls.Add(this.BU_unit1_shoot);
+            this.Controls.Add(this.BU_unit10_move);
+            this.Controls.Add(this.BU_unit9_move);
+            this.Controls.Add(this.BU_unit8_move);
+            this.Controls.Add(this.BU_unit7_move);
+            this.Controls.Add(this.BU_unit6_move);
+            this.Controls.Add(this.BU_unit5_move);
+            this.Controls.Add(this.BU_unit4_move);
+            this.Controls.Add(this.BU_unit3_move);
+            this.Controls.Add(this.BU_unit2_move);
+            this.Controls.Add(this.BU_unit1_move);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox13);
@@ -998,16 +1011,16 @@
             this.Controls.Add(this.pictureBox18);
             this.Controls.Add(this.pictureBox19);
             this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.PB_unit5);
+            this.Controls.Add(this.PB_unit4);
+            this.Controls.Add(this.PB_unit3);
+            this.Controls.Add(this.PB_unit2);
+            this.Controls.Add(this.PB_unit1);
+            this.Controls.Add(this.PB_unit10);
+            this.Controls.Add(this.PB_unit9);
+            this.Controls.Add(this.PB_unit8);
+            this.Controls.Add(this.PB_unit7);
+            this.Controls.Add(this.PB_unit6);
             this.Controls.Add(this.LBL_unit10_mor);
             this.Controls.Add(this.LBL_unit10_mp);
             this.Controls.Add(this.LBL_unit10_moral);
@@ -1061,16 +1074,16 @@
             this.Controls.Add(this.pictureBox21);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_unit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
@@ -1139,47 +1152,48 @@
         private System.Windows.Forms.Label LBL_unit6_moral;
         private System.Windows.Forms.Label LBL_unit6_man;
         private System.Windows.Forms.Label LBL_unit6;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox PB_unit6;
+        private System.Windows.Forms.PictureBox PB_unit7;
+        private System.Windows.Forms.PictureBox PB_unit8;
+        private System.Windows.Forms.PictureBox PB_unit9;
+        private System.Windows.Forms.PictureBox PB_unit10;
+        private System.Windows.Forms.PictureBox PB_unit5;
+        private System.Windows.Forms.PictureBox PB_unit4;
+        private System.Windows.Forms.PictureBox PB_unit2;
+        private System.Windows.Forms.PictureBox PB_unit1;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox pictureBox19;
         private System.Windows.Forms.PictureBox pictureBox20;
         private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button BU_unit1_move;
+        private System.Windows.Forms.Button BU_unit2_move;
+        private System.Windows.Forms.Button BU_unit3_move;
+        private System.Windows.Forms.Button BU_unit4_move;
+        private System.Windows.Forms.Button BU_unit5_move;
+        private System.Windows.Forms.Button BU_unit6_move;
+        private System.Windows.Forms.Button BU_unit7_move;
+        private System.Windows.Forms.Button BU_unit8_move;
+        private System.Windows.Forms.Button BU_unit9_move;
+        private System.Windows.Forms.Button BU_unit10_move;
+        private System.Windows.Forms.Button BU_unit1_shoot;
+        private System.Windows.Forms.Button BU_unit2_shoot;
+        private System.Windows.Forms.Button BU_unit3_shoot;
+        private System.Windows.Forms.Button BU_unit4_shoot;
+        private System.Windows.Forms.Button BU_unit5_shoot;
+        private System.Windows.Forms.Button BU_unit6_shoot;
+        private System.Windows.Forms.Button BU_unit7_shoot;
+        private System.Windows.Forms.Button BU_unit8_shoot;
+        private System.Windows.Forms.Button BU_unit9_shoot;
+        private System.Windows.Forms.Button BU_unit10_shoot;
+        private System.Windows.Forms.PictureBox PB_unit3;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox pictureBox15;
     }
 }
 
