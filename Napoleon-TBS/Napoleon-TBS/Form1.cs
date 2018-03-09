@@ -14,11 +14,53 @@ namespace Napoleon_TBS
     {
 
         int move = 10;
+        Regiment regiment1 = new Regiment("1. infantry");
+        Regiment regiment2 = new Regiment("2. infantry");
+        Regiment regiment3 = new Regiment("3. infantry");
+        Regiment regiment4 = new Regiment("4. infantry");
+        Regiment regiment5 = new Regiment("5. infantry");
+        Regiment regiment6 = new Regiment("6. infantry");
+        Regiment regiment7 = new Regiment("7. infantry");
+        Regiment regiment8 = new Regiment("8. infantry");
+        Regiment regiment9 = new Regiment("9. infantry");
+        Regiment regiment10 = new Regiment("10. infantry");
 
-        
+
         public Form1()
         {
             InitializeComponent();
+            LBL_unit1_mp.Text = Convert.ToString(regiment1.GetManpower());
+            LBL_unit2_mp.Text = Convert.ToString(regiment2.GetManpower());
+            LBL_unit3_mp.Text = Convert.ToString(regiment3.GetManpower());
+            LBL_unit4_mp.Text = Convert.ToString(regiment4.GetManpower());
+            LBL_unit5_mp.Text = Convert.ToString(regiment5.GetManpower());
+            LBL_unit6_mp.Text = Convert.ToString(regiment6.GetManpower());
+            LBL_unit7_mp.Text = Convert.ToString(regiment7.GetManpower());
+            LBL_unit8_mp.Text = Convert.ToString(regiment8.GetManpower());
+            LBL_unit9_mp.Text = Convert.ToString(regiment9.GetManpower());
+            LBL_unit10_mp.Text = Convert.ToString(regiment10.GetManpower());
+
+            LBL_unit1_mor.Text = Convert.ToString(regiment1.GetMorale());
+            LBL_unit2_mor.Text = Convert.ToString(regiment2.GetMorale());
+            LBL_unit3_mor.Text = Convert.ToString(regiment3.GetMorale());
+            LBL_unit4_mor.Text = Convert.ToString(regiment4.GetMorale());
+            LBL_unit5_mor.Text = Convert.ToString(regiment5.GetMorale());
+            LBL_unit6_mor.Text = Convert.ToString(regiment6.GetMorale());
+            LBL_unit7_mor.Text = Convert.ToString(regiment7.GetMorale());
+            LBL_unit8_mor.Text = Convert.ToString(regiment8.GetMorale());
+            LBL_unit9_mor.Text = Convert.ToString(regiment9.GetMorale());
+            LBL_unit10_mor.Text = Convert.ToString(regiment10.GetMorale());
+
+            LBL_unit1_name.Text = Convert.ToString(regiment1.GetName());
+            LBL_unit2_name.Text = Convert.ToString(regiment2.GetName());
+            LBL_unit3_name.Text = Convert.ToString(regiment3.GetName());
+            LBL_unit4_name.Text = Convert.ToString(regiment4.GetName());
+            LBL_unit5_name.Text = Convert.ToString(regiment5.GetName());
+            LBL_unit6_name.Text = Convert.ToString(regiment6.GetName());
+            LBL_unit7_name.Text = Convert.ToString(regiment7.GetName());
+            LBL_unit8_name.Text = Convert.ToString(regiment8.GetName());
+            LBL_unit9_name.Text = Convert.ToString(regiment9.GetName());
+            LBL_unit10_name.Text = Convert.ToString(regiment10.GetName());
         }
 
         private void BU_unit1_move_Click(object sender, EventArgs e)

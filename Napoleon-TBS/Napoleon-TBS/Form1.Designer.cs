@@ -122,6 +122,26 @@
             this.BU_unit9_shoot = new System.Windows.Forms.Button();
             this.BU_unit10_shoot = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.LBL_unit7_name = new System.Windows.Forms.Label();
+            this.LBL_unit6_name = new System.Windows.Forms.Label();
+            this.LBL_unit8_name = new System.Windows.Forms.Label();
+            this.LBL_unit9_name = new System.Windows.Forms.Label();
+            this.LBL_unit10_name = new System.Windows.Forms.Label();
+            this.LBL_unit5_name = new System.Windows.Forms.Label();
+            this.LBL_unit1_name = new System.Windows.Forms.Label();
+            this.LBL_unit2_name = new System.Windows.Forms.Label();
+            this.LBL_unit3_name = new System.Windows.Forms.Label();
+            this.LBL_unit4_name = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit8)).BeginInit();
@@ -193,7 +213,7 @@
             // LBL_unit2_mor
             // 
             this.LBL_unit2_mor.AutoSize = true;
-            this.LBL_unit2_mor.Location = new System.Drawing.Point(1153, 57);
+            this.LBL_unit2_mor.Location = new System.Drawing.Point(1157, 57);
             this.LBL_unit2_mor.Name = "LBL_unit2_mor";
             this.LBL_unit2_mor.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit2_mor.TabIndex = 9;
@@ -202,7 +222,7 @@
             // LBL_unit2_mp
             // 
             this.LBL_unit2_mp.AutoSize = true;
-            this.LBL_unit2_mp.Location = new System.Drawing.Point(1153, 37);
+            this.LBL_unit2_mp.Location = new System.Drawing.Point(1157, 37);
             this.LBL_unit2_mp.Name = "LBL_unit2_mp";
             this.LBL_unit2_mp.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit2_mp.TabIndex = 8;
@@ -211,7 +231,7 @@
             // LBL_unit2_moral
             // 
             this.LBL_unit2_moral.AutoSize = true;
-            this.LBL_unit2_moral.Location = new System.Drawing.Point(1104, 57);
+            this.LBL_unit2_moral.Location = new System.Drawing.Point(1108, 57);
             this.LBL_unit2_moral.Name = "LBL_unit2_moral";
             this.LBL_unit2_moral.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit2_moral.TabIndex = 7;
@@ -220,7 +240,7 @@
             // LBL_unit2_man
             // 
             this.LBL_unit2_man.AutoSize = true;
-            this.LBL_unit2_man.Location = new System.Drawing.Point(1046, 37);
+            this.LBL_unit2_man.Location = new System.Drawing.Point(1050, 37);
             this.LBL_unit2_man.Name = "LBL_unit2_man";
             this.LBL_unit2_man.Size = new System.Drawing.Size(101, 17);
             this.LBL_unit2_man.TabIndex = 6;
@@ -229,7 +249,7 @@
             // LBL_unit2
             // 
             this.LBL_unit2.AutoSize = true;
-            this.LBL_unit2.Location = new System.Drawing.Point(1104, 17);
+            this.LBL_unit2.Location = new System.Drawing.Point(1108, 17);
             this.LBL_unit2.Name = "LBL_unit2";
             this.LBL_unit2.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit2.TabIndex = 5;
@@ -238,7 +258,7 @@
             // LBL_unit3_mor
             // 
             this.LBL_unit3_mor.AutoSize = true;
-            this.LBL_unit3_mor.Location = new System.Drawing.Point(1324, 57);
+            this.LBL_unit3_mor.Location = new System.Drawing.Point(1341, 57);
             this.LBL_unit3_mor.Name = "LBL_unit3_mor";
             this.LBL_unit3_mor.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit3_mor.TabIndex = 14;
@@ -247,7 +267,7 @@
             // LBL_unit3_mp
             // 
             this.LBL_unit3_mp.AutoSize = true;
-            this.LBL_unit3_mp.Location = new System.Drawing.Point(1324, 37);
+            this.LBL_unit3_mp.Location = new System.Drawing.Point(1341, 37);
             this.LBL_unit3_mp.Name = "LBL_unit3_mp";
             this.LBL_unit3_mp.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit3_mp.TabIndex = 13;
@@ -256,7 +276,7 @@
             // LBL_unit3_moral
             // 
             this.LBL_unit3_moral.AutoSize = true;
-            this.LBL_unit3_moral.Location = new System.Drawing.Point(1275, 57);
+            this.LBL_unit3_moral.Location = new System.Drawing.Point(1292, 57);
             this.LBL_unit3_moral.Name = "LBL_unit3_moral";
             this.LBL_unit3_moral.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit3_moral.TabIndex = 12;
@@ -265,7 +285,7 @@
             // LBL_unit3_man
             // 
             this.LBL_unit3_man.AutoSize = true;
-            this.LBL_unit3_man.Location = new System.Drawing.Point(1217, 37);
+            this.LBL_unit3_man.Location = new System.Drawing.Point(1234, 37);
             this.LBL_unit3_man.Name = "LBL_unit3_man";
             this.LBL_unit3_man.Size = new System.Drawing.Size(101, 17);
             this.LBL_unit3_man.TabIndex = 11;
@@ -274,7 +294,7 @@
             // LBL_unit3
             // 
             this.LBL_unit3.AutoSize = true;
-            this.LBL_unit3.Location = new System.Drawing.Point(1275, 17);
+            this.LBL_unit3.Location = new System.Drawing.Point(1292, 17);
             this.LBL_unit3.Name = "LBL_unit3";
             this.LBL_unit3.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit3.TabIndex = 10;
@@ -283,7 +303,7 @@
             // LBL_unit4_mor
             // 
             this.LBL_unit4_mor.AutoSize = true;
-            this.LBL_unit4_mor.Location = new System.Drawing.Point(1495, 57);
+            this.LBL_unit4_mor.Location = new System.Drawing.Point(1522, 57);
             this.LBL_unit4_mor.Name = "LBL_unit4_mor";
             this.LBL_unit4_mor.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit4_mor.TabIndex = 19;
@@ -292,7 +312,7 @@
             // LBL_unit4_mp
             // 
             this.LBL_unit4_mp.AutoSize = true;
-            this.LBL_unit4_mp.Location = new System.Drawing.Point(1495, 37);
+            this.LBL_unit4_mp.Location = new System.Drawing.Point(1522, 37);
             this.LBL_unit4_mp.Name = "LBL_unit4_mp";
             this.LBL_unit4_mp.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit4_mp.TabIndex = 18;
@@ -301,7 +321,7 @@
             // LBL_unit4_moral
             // 
             this.LBL_unit4_moral.AutoSize = true;
-            this.LBL_unit4_moral.Location = new System.Drawing.Point(1446, 57);
+            this.LBL_unit4_moral.Location = new System.Drawing.Point(1473, 57);
             this.LBL_unit4_moral.Name = "LBL_unit4_moral";
             this.LBL_unit4_moral.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit4_moral.TabIndex = 17;
@@ -310,7 +330,7 @@
             // LBL_unit4_man
             // 
             this.LBL_unit4_man.AutoSize = true;
-            this.LBL_unit4_man.Location = new System.Drawing.Point(1388, 37);
+            this.LBL_unit4_man.Location = new System.Drawing.Point(1415, 37);
             this.LBL_unit4_man.Name = "LBL_unit4_man";
             this.LBL_unit4_man.Size = new System.Drawing.Size(101, 17);
             this.LBL_unit4_man.TabIndex = 16;
@@ -319,7 +339,7 @@
             // LBL_unit4
             // 
             this.LBL_unit4.AutoSize = true;
-            this.LBL_unit4.Location = new System.Drawing.Point(1446, 17);
+            this.LBL_unit4.Location = new System.Drawing.Point(1473, 17);
             this.LBL_unit4.Name = "LBL_unit4";
             this.LBL_unit4.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit4.TabIndex = 15;
@@ -328,7 +348,7 @@
             // LBL_unit5_mor
             // 
             this.LBL_unit5_mor.AutoSize = true;
-            this.LBL_unit5_mor.Location = new System.Drawing.Point(1666, 57);
+            this.LBL_unit5_mor.Location = new System.Drawing.Point(1692, 57);
             this.LBL_unit5_mor.Name = "LBL_unit5_mor";
             this.LBL_unit5_mor.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit5_mor.TabIndex = 24;
@@ -337,7 +357,7 @@
             // LBL_unit5_mp
             // 
             this.LBL_unit5_mp.AutoSize = true;
-            this.LBL_unit5_mp.Location = new System.Drawing.Point(1666, 37);
+            this.LBL_unit5_mp.Location = new System.Drawing.Point(1692, 37);
             this.LBL_unit5_mp.Name = "LBL_unit5_mp";
             this.LBL_unit5_mp.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit5_mp.TabIndex = 23;
@@ -346,7 +366,7 @@
             // LBL_unit5_moral
             // 
             this.LBL_unit5_moral.AutoSize = true;
-            this.LBL_unit5_moral.Location = new System.Drawing.Point(1617, 57);
+            this.LBL_unit5_moral.Location = new System.Drawing.Point(1643, 57);
             this.LBL_unit5_moral.Name = "LBL_unit5_moral";
             this.LBL_unit5_moral.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit5_moral.TabIndex = 22;
@@ -355,7 +375,7 @@
             // LBL_unit5_man
             // 
             this.LBL_unit5_man.AutoSize = true;
-            this.LBL_unit5_man.Location = new System.Drawing.Point(1559, 37);
+            this.LBL_unit5_man.Location = new System.Drawing.Point(1585, 37);
             this.LBL_unit5_man.Name = "LBL_unit5_man";
             this.LBL_unit5_man.Size = new System.Drawing.Size(101, 17);
             this.LBL_unit5_man.TabIndex = 21;
@@ -364,7 +384,7 @@
             // LBL_unit5
             // 
             this.LBL_unit5.AutoSize = true;
-            this.LBL_unit5.Location = new System.Drawing.Point(1617, 17);
+            this.LBL_unit5.Location = new System.Drawing.Point(1643, 17);
             this.LBL_unit5.Name = "LBL_unit5";
             this.LBL_unit5.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit5.TabIndex = 20;
@@ -373,7 +393,7 @@
             // LBL_unit10_mor
             // 
             this.LBL_unit10_mor.AutoSize = true;
-            this.LBL_unit10_mor.Location = new System.Drawing.Point(1666, 204);
+            this.LBL_unit10_mor.Location = new System.Drawing.Point(1692, 232);
             this.LBL_unit10_mor.Name = "LBL_unit10_mor";
             this.LBL_unit10_mor.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit10_mor.TabIndex = 49;
@@ -382,7 +402,7 @@
             // LBL_unit10_mp
             // 
             this.LBL_unit10_mp.AutoSize = true;
-            this.LBL_unit10_mp.Location = new System.Drawing.Point(1666, 184);
+            this.LBL_unit10_mp.Location = new System.Drawing.Point(1692, 212);
             this.LBL_unit10_mp.Name = "LBL_unit10_mp";
             this.LBL_unit10_mp.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit10_mp.TabIndex = 48;
@@ -391,7 +411,7 @@
             // LBL_unit10_moral
             // 
             this.LBL_unit10_moral.AutoSize = true;
-            this.LBL_unit10_moral.Location = new System.Drawing.Point(1617, 204);
+            this.LBL_unit10_moral.Location = new System.Drawing.Point(1651, 232);
             this.LBL_unit10_moral.Name = "LBL_unit10_moral";
             this.LBL_unit10_moral.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit10_moral.TabIndex = 47;
@@ -400,7 +420,7 @@
             // LBL_unit10_man
             // 
             this.LBL_unit10_man.AutoSize = true;
-            this.LBL_unit10_man.Location = new System.Drawing.Point(1559, 184);
+            this.LBL_unit10_man.Location = new System.Drawing.Point(1593, 215);
             this.LBL_unit10_man.Name = "LBL_unit10_man";
             this.LBL_unit10_man.Size = new System.Drawing.Size(101, 17);
             this.LBL_unit10_man.TabIndex = 46;
@@ -409,7 +429,7 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(1617, 164);
+            this.label25.Location = new System.Drawing.Point(1643, 192);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(51, 17);
             this.label25.TabIndex = 45;
@@ -418,7 +438,7 @@
             // LBL_unit9_mor
             // 
             this.LBL_unit9_mor.AutoSize = true;
-            this.LBL_unit9_mor.Location = new System.Drawing.Point(1495, 204);
+            this.LBL_unit9_mor.Location = new System.Drawing.Point(1522, 232);
             this.LBL_unit9_mor.Name = "LBL_unit9_mor";
             this.LBL_unit9_mor.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit9_mor.TabIndex = 44;
@@ -427,7 +447,7 @@
             // LBL_unit9_mp
             // 
             this.LBL_unit9_mp.AutoSize = true;
-            this.LBL_unit9_mp.Location = new System.Drawing.Point(1495, 184);
+            this.LBL_unit9_mp.Location = new System.Drawing.Point(1522, 212);
             this.LBL_unit9_mp.Name = "LBL_unit9_mp";
             this.LBL_unit9_mp.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit9_mp.TabIndex = 43;
@@ -436,7 +456,7 @@
             // LBL_unit9_moral
             // 
             this.LBL_unit9_moral.AutoSize = true;
-            this.LBL_unit9_moral.Location = new System.Drawing.Point(1446, 204);
+            this.LBL_unit9_moral.Location = new System.Drawing.Point(1473, 232);
             this.LBL_unit9_moral.Name = "LBL_unit9_moral";
             this.LBL_unit9_moral.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit9_moral.TabIndex = 42;
@@ -445,7 +465,7 @@
             // LBL_unit9_man
             // 
             this.LBL_unit9_man.AutoSize = true;
-            this.LBL_unit9_man.Location = new System.Drawing.Point(1388, 184);
+            this.LBL_unit9_man.Location = new System.Drawing.Point(1415, 212);
             this.LBL_unit9_man.Name = "LBL_unit9_man";
             this.LBL_unit9_man.Size = new System.Drawing.Size(101, 17);
             this.LBL_unit9_man.TabIndex = 41;
@@ -454,7 +474,7 @@
             // LBL_unit9
             // 
             this.LBL_unit9.AutoSize = true;
-            this.LBL_unit9.Location = new System.Drawing.Point(1446, 164);
+            this.LBL_unit9.Location = new System.Drawing.Point(1473, 192);
             this.LBL_unit9.Name = "LBL_unit9";
             this.LBL_unit9.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit9.TabIndex = 40;
@@ -463,7 +483,7 @@
             // LBL_unit8_mor
             // 
             this.LBL_unit8_mor.AutoSize = true;
-            this.LBL_unit8_mor.Location = new System.Drawing.Point(1324, 204);
+            this.LBL_unit8_mor.Location = new System.Drawing.Point(1341, 232);
             this.LBL_unit8_mor.Name = "LBL_unit8_mor";
             this.LBL_unit8_mor.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit8_mor.TabIndex = 39;
@@ -472,7 +492,7 @@
             // LBL_unit8_mp
             // 
             this.LBL_unit8_mp.AutoSize = true;
-            this.LBL_unit8_mp.Location = new System.Drawing.Point(1324, 184);
+            this.LBL_unit8_mp.Location = new System.Drawing.Point(1341, 212);
             this.LBL_unit8_mp.Name = "LBL_unit8_mp";
             this.LBL_unit8_mp.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit8_mp.TabIndex = 38;
@@ -481,7 +501,7 @@
             // LBL_unit8_moral
             // 
             this.LBL_unit8_moral.AutoSize = true;
-            this.LBL_unit8_moral.Location = new System.Drawing.Point(1275, 204);
+            this.LBL_unit8_moral.Location = new System.Drawing.Point(1292, 232);
             this.LBL_unit8_moral.Name = "LBL_unit8_moral";
             this.LBL_unit8_moral.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit8_moral.TabIndex = 37;
@@ -490,7 +510,7 @@
             // LBL_unit8_man
             // 
             this.LBL_unit8_man.AutoSize = true;
-            this.LBL_unit8_man.Location = new System.Drawing.Point(1217, 184);
+            this.LBL_unit8_man.Location = new System.Drawing.Point(1234, 212);
             this.LBL_unit8_man.Name = "LBL_unit8_man";
             this.LBL_unit8_man.Size = new System.Drawing.Size(101, 17);
             this.LBL_unit8_man.TabIndex = 36;
@@ -499,7 +519,7 @@
             // LBL_unit8
             // 
             this.LBL_unit8.AutoSize = true;
-            this.LBL_unit8.Location = new System.Drawing.Point(1275, 164);
+            this.LBL_unit8.Location = new System.Drawing.Point(1292, 192);
             this.LBL_unit8.Name = "LBL_unit8";
             this.LBL_unit8.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit8.TabIndex = 35;
@@ -508,7 +528,7 @@
             // LBL_unit7_mor
             // 
             this.LBL_unit7_mor.AutoSize = true;
-            this.LBL_unit7_mor.Location = new System.Drawing.Point(1153, 204);
+            this.LBL_unit7_mor.Location = new System.Drawing.Point(1157, 232);
             this.LBL_unit7_mor.Name = "LBL_unit7_mor";
             this.LBL_unit7_mor.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit7_mor.TabIndex = 34;
@@ -517,7 +537,7 @@
             // LBL_unit7_mp
             // 
             this.LBL_unit7_mp.AutoSize = true;
-            this.LBL_unit7_mp.Location = new System.Drawing.Point(1153, 184);
+            this.LBL_unit7_mp.Location = new System.Drawing.Point(1157, 212);
             this.LBL_unit7_mp.Name = "LBL_unit7_mp";
             this.LBL_unit7_mp.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit7_mp.TabIndex = 33;
@@ -526,7 +546,7 @@
             // LBL_unit7_moral
             // 
             this.LBL_unit7_moral.AutoSize = true;
-            this.LBL_unit7_moral.Location = new System.Drawing.Point(1104, 204);
+            this.LBL_unit7_moral.Location = new System.Drawing.Point(1108, 232);
             this.LBL_unit7_moral.Name = "LBL_unit7_moral";
             this.LBL_unit7_moral.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit7_moral.TabIndex = 32;
@@ -535,7 +555,7 @@
             // LBL_unit7_man
             // 
             this.LBL_unit7_man.AutoSize = true;
-            this.LBL_unit7_man.Location = new System.Drawing.Point(1046, 184);
+            this.LBL_unit7_man.Location = new System.Drawing.Point(1050, 212);
             this.LBL_unit7_man.Name = "LBL_unit7_man";
             this.LBL_unit7_man.Size = new System.Drawing.Size(101, 17);
             this.LBL_unit7_man.TabIndex = 31;
@@ -544,7 +564,7 @@
             // LBL_unit7
             // 
             this.LBL_unit7.AutoSize = true;
-            this.LBL_unit7.Location = new System.Drawing.Point(1104, 164);
+            this.LBL_unit7.Location = new System.Drawing.Point(1108, 192);
             this.LBL_unit7.Name = "LBL_unit7";
             this.LBL_unit7.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit7.TabIndex = 30;
@@ -553,7 +573,7 @@
             // LBL_unit6_mor
             // 
             this.LBL_unit6_mor.AutoSize = true;
-            this.LBL_unit6_mor.Location = new System.Drawing.Point(971, 204);
+            this.LBL_unit6_mor.Location = new System.Drawing.Point(971, 232);
             this.LBL_unit6_mor.Name = "LBL_unit6_mor";
             this.LBL_unit6_mor.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit6_mor.TabIndex = 29;
@@ -562,7 +582,7 @@
             // LBL_unit6_mp
             // 
             this.LBL_unit6_mp.AutoSize = true;
-            this.LBL_unit6_mp.Location = new System.Drawing.Point(971, 184);
+            this.LBL_unit6_mp.Location = new System.Drawing.Point(971, 212);
             this.LBL_unit6_mp.Name = "LBL_unit6_mp";
             this.LBL_unit6_mp.Size = new System.Drawing.Size(58, 17);
             this.LBL_unit6_mp.TabIndex = 28;
@@ -571,7 +591,7 @@
             // LBL_unit6_moral
             // 
             this.LBL_unit6_moral.AutoSize = true;
-            this.LBL_unit6_moral.Location = new System.Drawing.Point(922, 204);
+            this.LBL_unit6_moral.Location = new System.Drawing.Point(922, 232);
             this.LBL_unit6_moral.Name = "LBL_unit6_moral";
             this.LBL_unit6_moral.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit6_moral.TabIndex = 27;
@@ -580,7 +600,7 @@
             // LBL_unit6_man
             // 
             this.LBL_unit6_man.AutoSize = true;
-            this.LBL_unit6_man.Location = new System.Drawing.Point(864, 184);
+            this.LBL_unit6_man.Location = new System.Drawing.Point(864, 212);
             this.LBL_unit6_man.Name = "LBL_unit6_man";
             this.LBL_unit6_man.Size = new System.Drawing.Size(101, 17);
             this.LBL_unit6_man.TabIndex = 26;
@@ -589,7 +609,7 @@
             // LBL_unit6
             // 
             this.LBL_unit6.AutoSize = true;
-            this.LBL_unit6.Location = new System.Drawing.Point(922, 164);
+            this.LBL_unit6.Location = new System.Drawing.Point(922, 192);
             this.LBL_unit6.Name = "LBL_unit6";
             this.LBL_unit6.Size = new System.Drawing.Size(43, 17);
             this.LBL_unit6.TabIndex = 25;
@@ -788,7 +808,7 @@
             // 
             // BU_unit1_move
             // 
-            this.BU_unit1_move.Location = new System.Drawing.Point(890, 77);
+            this.BU_unit1_move.Location = new System.Drawing.Point(890, 99);
             this.BU_unit1_move.Name = "BU_unit1_move";
             this.BU_unit1_move.Size = new System.Drawing.Size(75, 23);
             this.BU_unit1_move.TabIndex = 71;
@@ -798,7 +818,7 @@
             // 
             // BU_unit2_move
             // 
-            this.BU_unit2_move.Location = new System.Drawing.Point(1072, 77);
+            this.BU_unit2_move.Location = new System.Drawing.Point(1076, 99);
             this.BU_unit2_move.Name = "BU_unit2_move";
             this.BU_unit2_move.Size = new System.Drawing.Size(75, 23);
             this.BU_unit2_move.TabIndex = 72;
@@ -808,7 +828,7 @@
             // 
             // BU_unit3_move
             // 
-            this.BU_unit3_move.Location = new System.Drawing.Point(1243, 77);
+            this.BU_unit3_move.Location = new System.Drawing.Point(1260, 99);
             this.BU_unit3_move.Name = "BU_unit3_move";
             this.BU_unit3_move.Size = new System.Drawing.Size(75, 23);
             this.BU_unit3_move.TabIndex = 73;
@@ -818,7 +838,7 @@
             // 
             // BU_unit4_move
             // 
-            this.BU_unit4_move.Location = new System.Drawing.Point(1414, 77);
+            this.BU_unit4_move.Location = new System.Drawing.Point(1441, 99);
             this.BU_unit4_move.Name = "BU_unit4_move";
             this.BU_unit4_move.Size = new System.Drawing.Size(75, 23);
             this.BU_unit4_move.TabIndex = 74;
@@ -828,7 +848,7 @@
             // 
             // BU_unit5_move
             // 
-            this.BU_unit5_move.Location = new System.Drawing.Point(1593, 77);
+            this.BU_unit5_move.Location = new System.Drawing.Point(1619, 99);
             this.BU_unit5_move.Name = "BU_unit5_move";
             this.BU_unit5_move.Size = new System.Drawing.Size(75, 23);
             this.BU_unit5_move.TabIndex = 75;
@@ -838,7 +858,7 @@
             // 
             // BU_unit6_move
             // 
-            this.BU_unit6_move.Location = new System.Drawing.Point(890, 224);
+            this.BU_unit6_move.Location = new System.Drawing.Point(890, 280);
             this.BU_unit6_move.Name = "BU_unit6_move";
             this.BU_unit6_move.Size = new System.Drawing.Size(75, 23);
             this.BU_unit6_move.TabIndex = 76;
@@ -848,7 +868,7 @@
             // 
             // BU_unit7_move
             // 
-            this.BU_unit7_move.Location = new System.Drawing.Point(1072, 224);
+            this.BU_unit7_move.Location = new System.Drawing.Point(1076, 280);
             this.BU_unit7_move.Name = "BU_unit7_move";
             this.BU_unit7_move.Size = new System.Drawing.Size(75, 23);
             this.BU_unit7_move.TabIndex = 77;
@@ -858,7 +878,7 @@
             // 
             // BU_unit8_move
             // 
-            this.BU_unit8_move.Location = new System.Drawing.Point(1243, 224);
+            this.BU_unit8_move.Location = new System.Drawing.Point(1260, 280);
             this.BU_unit8_move.Name = "BU_unit8_move";
             this.BU_unit8_move.Size = new System.Drawing.Size(75, 23);
             this.BU_unit8_move.TabIndex = 78;
@@ -868,7 +888,7 @@
             // 
             // BU_unit9_move
             // 
-            this.BU_unit9_move.Location = new System.Drawing.Point(1414, 224);
+            this.BU_unit9_move.Location = new System.Drawing.Point(1441, 280);
             this.BU_unit9_move.Name = "BU_unit9_move";
             this.BU_unit9_move.Size = new System.Drawing.Size(75, 23);
             this.BU_unit9_move.TabIndex = 79;
@@ -878,7 +898,7 @@
             // 
             // BU_unit10_move
             // 
-            this.BU_unit10_move.Location = new System.Drawing.Point(1593, 224);
+            this.BU_unit10_move.Location = new System.Drawing.Point(1619, 280);
             this.BU_unit10_move.Name = "BU_unit10_move";
             this.BU_unit10_move.Size = new System.Drawing.Size(75, 23);
             this.BU_unit10_move.TabIndex = 80;
@@ -888,7 +908,7 @@
             // 
             // BU_unit1_shoot
             // 
-            this.BU_unit1_shoot.Location = new System.Drawing.Point(890, 106);
+            this.BU_unit1_shoot.Location = new System.Drawing.Point(890, 128);
             this.BU_unit1_shoot.Name = "BU_unit1_shoot";
             this.BU_unit1_shoot.Size = new System.Drawing.Size(75, 23);
             this.BU_unit1_shoot.TabIndex = 81;
@@ -897,7 +917,7 @@
             // 
             // BU_unit2_shoot
             // 
-            this.BU_unit2_shoot.Location = new System.Drawing.Point(1072, 106);
+            this.BU_unit2_shoot.Location = new System.Drawing.Point(1076, 128);
             this.BU_unit2_shoot.Name = "BU_unit2_shoot";
             this.BU_unit2_shoot.Size = new System.Drawing.Size(75, 23);
             this.BU_unit2_shoot.TabIndex = 82;
@@ -906,7 +926,7 @@
             // 
             // BU_unit3_shoot
             // 
-            this.BU_unit3_shoot.Location = new System.Drawing.Point(1243, 106);
+            this.BU_unit3_shoot.Location = new System.Drawing.Point(1260, 128);
             this.BU_unit3_shoot.Name = "BU_unit3_shoot";
             this.BU_unit3_shoot.Size = new System.Drawing.Size(75, 23);
             this.BU_unit3_shoot.TabIndex = 83;
@@ -915,7 +935,7 @@
             // 
             // BU_unit4_shoot
             // 
-            this.BU_unit4_shoot.Location = new System.Drawing.Point(1414, 106);
+            this.BU_unit4_shoot.Location = new System.Drawing.Point(1441, 128);
             this.BU_unit4_shoot.Name = "BU_unit4_shoot";
             this.BU_unit4_shoot.Size = new System.Drawing.Size(75, 23);
             this.BU_unit4_shoot.TabIndex = 84;
@@ -924,7 +944,7 @@
             // 
             // BU_unit5_shoot
             // 
-            this.BU_unit5_shoot.Location = new System.Drawing.Point(1593, 106);
+            this.BU_unit5_shoot.Location = new System.Drawing.Point(1619, 128);
             this.BU_unit5_shoot.Name = "BU_unit5_shoot";
             this.BU_unit5_shoot.Size = new System.Drawing.Size(75, 23);
             this.BU_unit5_shoot.TabIndex = 85;
@@ -933,7 +953,7 @@
             // 
             // BU_unit6_shoot
             // 
-            this.BU_unit6_shoot.Location = new System.Drawing.Point(890, 253);
+            this.BU_unit6_shoot.Location = new System.Drawing.Point(890, 309);
             this.BU_unit6_shoot.Name = "BU_unit6_shoot";
             this.BU_unit6_shoot.Size = new System.Drawing.Size(75, 23);
             this.BU_unit6_shoot.TabIndex = 86;
@@ -942,7 +962,7 @@
             // 
             // BU_unit7_shoot
             // 
-            this.BU_unit7_shoot.Location = new System.Drawing.Point(1072, 253);
+            this.BU_unit7_shoot.Location = new System.Drawing.Point(1076, 309);
             this.BU_unit7_shoot.Name = "BU_unit7_shoot";
             this.BU_unit7_shoot.Size = new System.Drawing.Size(75, 23);
             this.BU_unit7_shoot.TabIndex = 87;
@@ -951,7 +971,7 @@
             // 
             // BU_unit8_shoot
             // 
-            this.BU_unit8_shoot.Location = new System.Drawing.Point(1243, 253);
+            this.BU_unit8_shoot.Location = new System.Drawing.Point(1260, 309);
             this.BU_unit8_shoot.Name = "BU_unit8_shoot";
             this.BU_unit8_shoot.Size = new System.Drawing.Size(75, 23);
             this.BU_unit8_shoot.TabIndex = 88;
@@ -960,7 +980,7 @@
             // 
             // BU_unit9_shoot
             // 
-            this.BU_unit9_shoot.Location = new System.Drawing.Point(1414, 253);
+            this.BU_unit9_shoot.Location = new System.Drawing.Point(1441, 309);
             this.BU_unit9_shoot.Name = "BU_unit9_shoot";
             this.BU_unit9_shoot.Size = new System.Drawing.Size(75, 23);
             this.BU_unit9_shoot.TabIndex = 89;
@@ -969,18 +989,218 @@
             // 
             // BU_unit10_shoot
             // 
-            this.BU_unit10_shoot.Location = new System.Drawing.Point(1593, 253);
+            this.BU_unit10_shoot.Location = new System.Drawing.Point(1619, 309);
             this.BU_unit10_shoot.Name = "BU_unit10_shoot";
             this.BU_unit10_shoot.Size = new System.Drawing.Size(75, 23);
             this.BU_unit10_shoot.TabIndex = 90;
             this.BU_unit10_shoot.Text = "Shoot";
             this.BU_unit10_shoot.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(879, 260);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 17);
+            this.label1.TabIndex = 91;
+            this.label1.Text = "name of unit";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(1065, 260);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(86, 17);
+            this.label2.TabIndex = 92;
+            this.label2.Text = "name of unit";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(1249, 260);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 17);
+            this.label3.TabIndex = 93;
+            this.label3.Text = "name of unit";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(1430, 260);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 17);
+            this.label4.TabIndex = 94;
+            this.label4.Text = "name of unit";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(1608, 260);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 17);
+            this.label5.TabIndex = 95;
+            this.label5.Text = "name of unit";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(879, 79);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(86, 17);
+            this.label6.TabIndex = 96;
+            this.label6.Text = "name of unit";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(1065, 79);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(86, 17);
+            this.label7.TabIndex = 97;
+            this.label7.Text = "name of unit";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(1249, 79);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(86, 17);
+            this.label8.TabIndex = 98;
+            this.label8.Text = "name of unit";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(1430, 79);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(86, 17);
+            this.label9.TabIndex = 99;
+            this.label9.Text = "name of unit";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(1608, 79);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(86, 17);
+            this.label10.TabIndex = 100;
+            this.label10.Text = "name of unit";
+            // 
+            // LBL_unit7_name
+            // 
+            this.LBL_unit7_name.AutoSize = true;
+            this.LBL_unit7_name.Location = new System.Drawing.Point(1157, 260);
+            this.LBL_unit7_name.Name = "LBL_unit7_name";
+            this.LBL_unit7_name.Size = new System.Drawing.Size(58, 17);
+            this.LBL_unit7_name.TabIndex = 101;
+            this.LBL_unit7_name.Text = "ERROR";
+            // 
+            // LBL_unit6_name
+            // 
+            this.LBL_unit6_name.AutoSize = true;
+            this.LBL_unit6_name.Location = new System.Drawing.Point(971, 260);
+            this.LBL_unit6_name.Name = "LBL_unit6_name";
+            this.LBL_unit6_name.Size = new System.Drawing.Size(58, 17);
+            this.LBL_unit6_name.TabIndex = 102;
+            this.LBL_unit6_name.Text = "ERROR";
+            // 
+            // LBL_unit8_name
+            // 
+            this.LBL_unit8_name.AutoSize = true;
+            this.LBL_unit8_name.Location = new System.Drawing.Point(1341, 260);
+            this.LBL_unit8_name.Name = "LBL_unit8_name";
+            this.LBL_unit8_name.Size = new System.Drawing.Size(58, 17);
+            this.LBL_unit8_name.TabIndex = 103;
+            this.LBL_unit8_name.Text = "ERROR";
+            // 
+            // LBL_unit9_name
+            // 
+            this.LBL_unit9_name.AutoSize = true;
+            this.LBL_unit9_name.Location = new System.Drawing.Point(1522, 260);
+            this.LBL_unit9_name.Name = "LBL_unit9_name";
+            this.LBL_unit9_name.Size = new System.Drawing.Size(58, 17);
+            this.LBL_unit9_name.TabIndex = 104;
+            this.LBL_unit9_name.Text = "ERROR";
+            // 
+            // LBL_unit10_name
+            // 
+            this.LBL_unit10_name.AutoSize = true;
+            this.LBL_unit10_name.Location = new System.Drawing.Point(1692, 260);
+            this.LBL_unit10_name.Name = "LBL_unit10_name";
+            this.LBL_unit10_name.Size = new System.Drawing.Size(58, 17);
+            this.LBL_unit10_name.TabIndex = 105;
+            this.LBL_unit10_name.Text = "ERROR";
+            // 
+            // LBL_unit5_name
+            // 
+            this.LBL_unit5_name.AutoSize = true;
+            this.LBL_unit5_name.Location = new System.Drawing.Point(1692, 79);
+            this.LBL_unit5_name.Name = "LBL_unit5_name";
+            this.LBL_unit5_name.Size = new System.Drawing.Size(58, 17);
+            this.LBL_unit5_name.TabIndex = 106;
+            this.LBL_unit5_name.Text = "ERROR";
+            // 
+            // LBL_unit1_name
+            // 
+            this.LBL_unit1_name.AutoSize = true;
+            this.LBL_unit1_name.Location = new System.Drawing.Point(971, 79);
+            this.LBL_unit1_name.Name = "LBL_unit1_name";
+            this.LBL_unit1_name.Size = new System.Drawing.Size(58, 17);
+            this.LBL_unit1_name.TabIndex = 107;
+            this.LBL_unit1_name.Text = "ERROR";
+            // 
+            // LBL_unit2_name
+            // 
+            this.LBL_unit2_name.AutoSize = true;
+            this.LBL_unit2_name.Location = new System.Drawing.Point(1157, 79);
+            this.LBL_unit2_name.Name = "LBL_unit2_name";
+            this.LBL_unit2_name.Size = new System.Drawing.Size(58, 17);
+            this.LBL_unit2_name.TabIndex = 108;
+            this.LBL_unit2_name.Text = "ERROR";
+            // 
+            // LBL_unit3_name
+            // 
+            this.LBL_unit3_name.AutoSize = true;
+            this.LBL_unit3_name.Location = new System.Drawing.Point(1341, 79);
+            this.LBL_unit3_name.Name = "LBL_unit3_name";
+            this.LBL_unit3_name.Size = new System.Drawing.Size(58, 17);
+            this.LBL_unit3_name.TabIndex = 109;
+            this.LBL_unit3_name.Text = "ERROR";
+            // 
+            // LBL_unit4_name
+            // 
+            this.LBL_unit4_name.AutoSize = true;
+            this.LBL_unit4_name.Location = new System.Drawing.Point(1522, 79);
+            this.LBL_unit4_name.Name = "LBL_unit4_name";
+            this.LBL_unit4_name.Size = new System.Drawing.Size(58, 17);
+            this.LBL_unit4_name.TabIndex = 110;
+            this.LBL_unit4_name.Text = "ERROR";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1902, 673);
+            this.Controls.Add(this.LBL_unit4_name);
+            this.Controls.Add(this.LBL_unit3_name);
+            this.Controls.Add(this.LBL_unit2_name);
+            this.Controls.Add(this.LBL_unit1_name);
+            this.Controls.Add(this.LBL_unit5_name);
+            this.Controls.Add(this.LBL_unit10_name);
+            this.Controls.Add(this.LBL_unit9_name);
+            this.Controls.Add(this.LBL_unit8_name);
+            this.Controls.Add(this.LBL_unit6_name);
+            this.Controls.Add(this.LBL_unit7_name);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.BU_unit10_shoot);
             this.Controls.Add(this.BU_unit9_shoot);
             this.Controls.Add(this.BU_unit8_shoot);
@@ -1194,6 +1414,26 @@
         private System.Windows.Forms.PictureBox PB_unit3;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label LBL_unit7_name;
+        private System.Windows.Forms.Label LBL_unit6_name;
+        private System.Windows.Forms.Label LBL_unit8_name;
+        private System.Windows.Forms.Label LBL_unit9_name;
+        private System.Windows.Forms.Label LBL_unit10_name;
+        private System.Windows.Forms.Label LBL_unit5_name;
+        private System.Windows.Forms.Label LBL_unit1_name;
+        private System.Windows.Forms.Label LBL_unit2_name;
+        private System.Windows.Forms.Label LBL_unit3_name;
+        private System.Windows.Forms.Label LBL_unit4_name;
     }
 }
 

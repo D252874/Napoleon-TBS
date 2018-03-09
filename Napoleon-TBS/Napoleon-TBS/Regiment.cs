@@ -31,5 +31,17 @@ namespace Napoleon_TBS
         {
             this.manpower =- damage;
         }
+        public int GetManpower()
+        {
+            return this.manpower;
+        }
+        public int GetMorale()
+        {
+            return this.morale;
+        }
+        public string GetName()
+        {
+            return this.name;
+        }
     }
 }
