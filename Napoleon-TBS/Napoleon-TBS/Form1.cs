@@ -28,6 +28,7 @@ namespace Napoleon_TBS
 
         public Form1()
         {
+            PB_unit1.Parent = pictureBox21;
             InitializeComponent();
             LBL_unit1_mp.Text = Convert.ToString(regiment1.GetManpower());
             LBL_unit2_mp.Text = Convert.ToString(regiment2.GetManpower());
@@ -161,6 +162,59 @@ namespace Napoleon_TBS
         private void BU_unit10_move_Click(object sender, EventArgs e)
         {
             PB_unit10.Location = new Point(PB_unit10.Location.X, PB_unit10.Location.Y - move);
+
+        }
+
+        private void BU_unit1_shoot_Click(object sender, EventArgs e)
+        {
+            var t = Task.Delay(500);
+            PB_unit1_smoke.Visible = true  ;
+            t.Wait();
+            PB_unit1_smoke.Visible = false;
+        }
+
+        private void BU_unit2_shoot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BU_unit3_shoot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BU_unit4_shoot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BU_unit5_shoot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BU_unit6_shoot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BU_unit7_shoot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BU_unit8_shoot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BU_unit9_shoot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BU_unit10_shoot_Click(object sender, EventArgs e)
+        {
 
         }
     }

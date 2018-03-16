@@ -13,6 +13,7 @@ namespace Napoleon_TBS
         protected string name;
         protected bool alive;
         protected int ammo;
+        protected bool shot;
 
         public Regiment(string name)
         {
@@ -25,7 +26,6 @@ namespace Napoleon_TBS
         public void Shoot()
         {
             this.ammo--;
-
         }
         public void GetHit(int damage)
         {
@@ -42,6 +42,14 @@ namespace Napoleon_TBS
         public string GetName()
         {
             return this.name;
+        }
+        public bool GetShot()
+        {
+            return  shot;
+        }
+        public void SetShot(bool shot)
+        {
+            this.shot = shot;
         }
     }
 }

@@ -838,6 +838,7 @@
             // 
             // pictureBox21
             // 
+            this.pictureBox21.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
             this.pictureBox21.Location = new System.Drawing.Point(79, 12);
@@ -954,6 +955,7 @@
             this.BU_unit1_shoot.TabIndex = 81;
             this.BU_unit1_shoot.Text = "Shoot";
             this.BU_unit1_shoot.UseVisualStyleBackColor = true;
+            this.BU_unit1_shoot.Click += new System.EventHandler(this.BU_unit1_shoot_Click);
             // 
             // BU_unit2_shoot
             // 
@@ -963,6 +965,7 @@
             this.BU_unit2_shoot.TabIndex = 82;
             this.BU_unit2_shoot.Text = "Shoot";
             this.BU_unit2_shoot.UseVisualStyleBackColor = true;
+            this.BU_unit2_shoot.Click += new System.EventHandler(this.BU_unit2_shoot_Click);
             // 
             // BU_unit3_shoot
             // 
@@ -972,6 +975,7 @@
             this.BU_unit3_shoot.TabIndex = 83;
             this.BU_unit3_shoot.Text = "Shoot";
             this.BU_unit3_shoot.UseVisualStyleBackColor = true;
+            this.BU_unit3_shoot.Click += new System.EventHandler(this.BU_unit3_shoot_Click);
             // 
             // BU_unit4_shoot
             // 
@@ -981,6 +985,7 @@
             this.BU_unit4_shoot.TabIndex = 84;
             this.BU_unit4_shoot.Text = "Shoot";
             this.BU_unit4_shoot.UseVisualStyleBackColor = true;
+            this.BU_unit4_shoot.Click += new System.EventHandler(this.BU_unit4_shoot_Click);
             // 
             // BU_unit5_shoot
             // 
@@ -990,6 +995,7 @@
             this.BU_unit5_shoot.TabIndex = 85;
             this.BU_unit5_shoot.Text = "Shoot";
             this.BU_unit5_shoot.UseVisualStyleBackColor = true;
+            this.BU_unit5_shoot.Click += new System.EventHandler(this.BU_unit5_shoot_Click);
             // 
             // BU_unit6_shoot
             // 
@@ -999,6 +1005,7 @@
             this.BU_unit6_shoot.TabIndex = 86;
             this.BU_unit6_shoot.Text = "Shoot";
             this.BU_unit6_shoot.UseVisualStyleBackColor = true;
+            this.BU_unit6_shoot.Click += new System.EventHandler(this.BU_unit6_shoot_Click);
             // 
             // BU_unit7_shoot
             // 
@@ -1008,6 +1015,7 @@
             this.BU_unit7_shoot.TabIndex = 87;
             this.BU_unit7_shoot.Text = "Shoot";
             this.BU_unit7_shoot.UseVisualStyleBackColor = true;
+            this.BU_unit7_shoot.Click += new System.EventHandler(this.BU_unit7_shoot_Click);
             // 
             // BU_unit8_shoot
             // 
@@ -1017,6 +1025,7 @@
             this.BU_unit8_shoot.TabIndex = 88;
             this.BU_unit8_shoot.Text = "Shoot";
             this.BU_unit8_shoot.UseVisualStyleBackColor = true;
+            this.BU_unit8_shoot.Click += new System.EventHandler(this.BU_unit8_shoot_Click);
             // 
             // BU_unit9_shoot
             // 
@@ -1026,6 +1035,7 @@
             this.BU_unit9_shoot.TabIndex = 89;
             this.BU_unit9_shoot.Text = "Shoot";
             this.BU_unit9_shoot.UseVisualStyleBackColor = true;
+            this.BU_unit9_shoot.Click += new System.EventHandler(this.BU_unit9_shoot_Click);
             // 
             // BU_unit10_shoot
             // 
@@ -1035,6 +1045,7 @@
             this.BU_unit10_shoot.TabIndex = 90;
             this.BU_unit10_shoot.Text = "Shoot";
             this.BU_unit10_shoot.UseVisualStyleBackColor = true;
+            this.BU_unit10_shoot.Click += new System.EventHandler(this.BU_unit10_shoot_Click);
             // 
             // label1
             // 
@@ -1554,6 +1565,7 @@
             this.Controls.Add(this.pictureBox21);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.TransparencyKey = System.Drawing.Color.Transparent;
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit8)).EndInit();
