@@ -90,16 +90,16 @@
             this.PB_unit3 = new System.Windows.Forms.PictureBox();
             this.PB_unit2 = new System.Windows.Forms.PictureBox();
             this.PB_unit1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.PB_ai5 = new System.Windows.Forms.PictureBox();
+            this.PB_ai4 = new System.Windows.Forms.PictureBox();
+            this.PB_ai3 = new System.Windows.Forms.PictureBox();
+            this.PB_ai2 = new System.Windows.Forms.PictureBox();
+            this.PB_ai1 = new System.Windows.Forms.PictureBox();
+            this.PB_ai10 = new System.Windows.Forms.PictureBox();
+            this.PB_ai9 = new System.Windows.Forms.PictureBox();
+            this.PB_ai8 = new System.Windows.Forms.PictureBox();
+            this.PB_ai7 = new System.Windows.Forms.PictureBox();
+            this.PB_ai6 = new System.Windows.Forms.PictureBox();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.BU_unit1_move = new System.Windows.Forms.Button();
             this.BU_unit2_move = new System.Windows.Forms.Button();
@@ -152,16 +152,16 @@
             this.PB_unit8_smoke = new System.Windows.Forms.PictureBox();
             this.PB_unit9_smoke = new System.Windows.Forms.PictureBox();
             this.PB_unit10_smoke = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.PB_ai10_smoke = new System.Windows.Forms.PictureBox();
+            this.PB_ai9_smoke = new System.Windows.Forms.PictureBox();
+            this.PB_ai8_smoke = new System.Windows.Forms.PictureBox();
+            this.PB_ai7_smoke = new System.Windows.Forms.PictureBox();
+            this.PB_ai6_smoke = new System.Windows.Forms.PictureBox();
+            this.PB_ai5_smoke = new System.Windows.Forms.PictureBox();
+            this.PB_ai4_smoke = new System.Windows.Forms.PictureBox();
+            this.PB_ai3_smoke = new System.Windows.Forms.PictureBox();
+            this.PB_ai2_smoke = new System.Windows.Forms.PictureBox();
+            this.PB_ai1_smoke = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit8)).BeginInit();
@@ -172,16 +172,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit1_smoke)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit2_smoke)).BeginInit();
@@ -193,16 +193,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit8_smoke)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit9_smoke)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit10_smoke)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai10_smoke)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai9_smoke)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai8_smoke)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai7_smoke)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai6_smoke)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai5_smoke)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai4_smoke)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai3_smoke)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai2_smoke)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai1_smoke)).BeginInit();
             this.SuspendLayout();
             // 
             // LBL_unit1
@@ -745,96 +745,96 @@
             this.PB_unit1.TabIndex = 55;
             this.PB_unit1.TabStop = false;
             // 
-            // pictureBox11
+            // PB_ai5
             // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(377, 37);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox11.TabIndex = 69;
-            this.pictureBox11.TabStop = false;
+            this.PB_ai5.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai5.Image")));
+            this.PB_ai5.Location = new System.Drawing.Point(377, 37);
+            this.PB_ai5.Name = "PB_ai5";
+            this.PB_ai5.Size = new System.Drawing.Size(63, 28);
+            this.PB_ai5.TabIndex = 69;
+            this.PB_ai5.TabStop = false;
             // 
-            // pictureBox12
+            // PB_ai4
             // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(308, 37);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox12.TabIndex = 68;
-            this.pictureBox12.TabStop = false;
+            this.PB_ai4.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai4.Image")));
+            this.PB_ai4.Location = new System.Drawing.Point(308, 37);
+            this.PB_ai4.Name = "PB_ai4";
+            this.PB_ai4.Size = new System.Drawing.Size(63, 28);
+            this.PB_ai4.TabIndex = 68;
+            this.PB_ai4.TabStop = false;
             // 
-            // pictureBox13
+            // PB_ai3
             // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(239, 37);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox13.TabIndex = 67;
-            this.pictureBox13.TabStop = false;
+            this.PB_ai3.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai3.Image")));
+            this.PB_ai3.Location = new System.Drawing.Point(239, 37);
+            this.PB_ai3.Name = "PB_ai3";
+            this.PB_ai3.Size = new System.Drawing.Size(63, 28);
+            this.PB_ai3.TabIndex = 67;
+            this.PB_ai3.TabStop = false;
             // 
-            // pictureBox14
+            // PB_ai2
             // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(170, 37);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox14.TabIndex = 66;
-            this.pictureBox14.TabStop = false;
+            this.PB_ai2.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai2.Image")));
+            this.PB_ai2.Location = new System.Drawing.Point(170, 37);
+            this.PB_ai2.Name = "PB_ai2";
+            this.PB_ai2.Size = new System.Drawing.Size(63, 28);
+            this.PB_ai2.TabIndex = 66;
+            this.PB_ai2.TabStop = false;
             // 
-            // pictureBox15
+            // PB_ai1
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(101, 37);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox15.TabIndex = 65;
-            this.pictureBox15.TabStop = false;
+            this.PB_ai1.BackColor = System.Drawing.Color.Transparent;
+            this.PB_ai1.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai1.Image")));
+            this.PB_ai1.Location = new System.Drawing.Point(101, 37);
+            this.PB_ai1.Name = "PB_ai1";
+            this.PB_ai1.Size = new System.Drawing.Size(63, 28);
+            this.PB_ai1.TabIndex = 65;
+            this.PB_ai1.TabStop = false;
             // 
-            // pictureBox16
+            // PB_ai10
             // 
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(726, 37);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox16.TabIndex = 64;
-            this.pictureBox16.TabStop = false;
+            this.PB_ai10.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai10.Image")));
+            this.PB_ai10.Location = new System.Drawing.Point(726, 37);
+            this.PB_ai10.Name = "PB_ai10";
+            this.PB_ai10.Size = new System.Drawing.Size(63, 28);
+            this.PB_ai10.TabIndex = 64;
+            this.PB_ai10.TabStop = false;
             // 
-            // pictureBox17
+            // PB_ai9
             // 
-            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
-            this.pictureBox17.Location = new System.Drawing.Point(657, 37);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox17.TabIndex = 63;
-            this.pictureBox17.TabStop = false;
+            this.PB_ai9.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai9.Image")));
+            this.PB_ai9.Location = new System.Drawing.Point(657, 37);
+            this.PB_ai9.Name = "PB_ai9";
+            this.PB_ai9.Size = new System.Drawing.Size(63, 28);
+            this.PB_ai9.TabIndex = 63;
+            this.PB_ai9.TabStop = false;
             // 
-            // pictureBox18
+            // PB_ai8
             // 
-            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(588, 37);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox18.TabIndex = 62;
-            this.pictureBox18.TabStop = false;
+            this.PB_ai8.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai8.Image")));
+            this.PB_ai8.Location = new System.Drawing.Point(588, 37);
+            this.PB_ai8.Name = "PB_ai8";
+            this.PB_ai8.Size = new System.Drawing.Size(63, 28);
+            this.PB_ai8.TabIndex = 62;
+            this.PB_ai8.TabStop = false;
             // 
-            // pictureBox19
+            // PB_ai7
             // 
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(519, 37);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox19.TabIndex = 61;
-            this.pictureBox19.TabStop = false;
+            this.PB_ai7.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai7.Image")));
+            this.PB_ai7.Location = new System.Drawing.Point(519, 37);
+            this.PB_ai7.Name = "PB_ai7";
+            this.PB_ai7.Size = new System.Drawing.Size(63, 28);
+            this.PB_ai7.TabIndex = 61;
+            this.PB_ai7.TabStop = false;
             // 
-            // pictureBox20
+            // PB_ai6
             // 
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(450, 37);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(63, 28);
-            this.pictureBox20.TabIndex = 60;
-            this.pictureBox20.TabStop = false;
+            this.PB_ai6.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai6.Image")));
+            this.PB_ai6.Location = new System.Drawing.Point(450, 37);
+            this.PB_ai6.Name = "PB_ai6";
+            this.PB_ai6.Size = new System.Drawing.Size(63, 28);
+            this.PB_ai6.TabIndex = 60;
+            this.PB_ai6.TabStop = false;
             // 
             // pictureBox21
             // 
@@ -1316,121 +1316,121 @@
             this.PB_unit10_smoke.TabIndex = 120;
             this.PB_unit10_smoke.TabStop = false;
             // 
-            // pictureBox22
+            // PB_ai10_smoke
             // 
-            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(726, 71);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(63, 30);
-            this.pictureBox22.TabIndex = 121;
-            this.pictureBox22.TabStop = false;
+            this.PB_ai10_smoke.BackColor = System.Drawing.Color.Transparent;
+            this.PB_ai10_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai10_smoke.Image")));
+            this.PB_ai10_smoke.Location = new System.Drawing.Point(726, 71);
+            this.PB_ai10_smoke.Name = "PB_ai10_smoke";
+            this.PB_ai10_smoke.Size = new System.Drawing.Size(63, 30);
+            this.PB_ai10_smoke.TabIndex = 121;
+            this.PB_ai10_smoke.TabStop = false;
             // 
-            // pictureBox23
+            // PB_ai9_smoke
             // 
-            this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(657, 71);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(63, 30);
-            this.pictureBox23.TabIndex = 122;
-            this.pictureBox23.TabStop = false;
+            this.PB_ai9_smoke.BackColor = System.Drawing.Color.Transparent;
+            this.PB_ai9_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai9_smoke.Image")));
+            this.PB_ai9_smoke.Location = new System.Drawing.Point(657, 71);
+            this.PB_ai9_smoke.Name = "PB_ai9_smoke";
+            this.PB_ai9_smoke.Size = new System.Drawing.Size(63, 30);
+            this.PB_ai9_smoke.TabIndex = 122;
+            this.PB_ai9_smoke.TabStop = false;
             // 
-            // pictureBox24
+            // PB_ai8_smoke
             // 
-            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(588, 71);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(63, 30);
-            this.pictureBox24.TabIndex = 123;
-            this.pictureBox24.TabStop = false;
+            this.PB_ai8_smoke.BackColor = System.Drawing.Color.Transparent;
+            this.PB_ai8_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai8_smoke.Image")));
+            this.PB_ai8_smoke.Location = new System.Drawing.Point(588, 71);
+            this.PB_ai8_smoke.Name = "PB_ai8_smoke";
+            this.PB_ai8_smoke.Size = new System.Drawing.Size(63, 30);
+            this.PB_ai8_smoke.TabIndex = 123;
+            this.PB_ai8_smoke.TabStop = false;
             // 
-            // pictureBox25
+            // PB_ai7_smoke
             // 
-            this.pictureBox25.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(519, 71);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(63, 30);
-            this.pictureBox25.TabIndex = 124;
-            this.pictureBox25.TabStop = false;
+            this.PB_ai7_smoke.BackColor = System.Drawing.Color.Transparent;
+            this.PB_ai7_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai7_smoke.Image")));
+            this.PB_ai7_smoke.Location = new System.Drawing.Point(519, 71);
+            this.PB_ai7_smoke.Name = "PB_ai7_smoke";
+            this.PB_ai7_smoke.Size = new System.Drawing.Size(63, 30);
+            this.PB_ai7_smoke.TabIndex = 124;
+            this.PB_ai7_smoke.TabStop = false;
             // 
-            // pictureBox26
+            // PB_ai6_smoke
             // 
-            this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
-            this.pictureBox26.Location = new System.Drawing.Point(450, 71);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(63, 30);
-            this.pictureBox26.TabIndex = 125;
-            this.pictureBox26.TabStop = false;
+            this.PB_ai6_smoke.BackColor = System.Drawing.Color.Transparent;
+            this.PB_ai6_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai6_smoke.Image")));
+            this.PB_ai6_smoke.Location = new System.Drawing.Point(450, 71);
+            this.PB_ai6_smoke.Name = "PB_ai6_smoke";
+            this.PB_ai6_smoke.Size = new System.Drawing.Size(63, 30);
+            this.PB_ai6_smoke.TabIndex = 125;
+            this.PB_ai6_smoke.TabStop = false;
             // 
-            // pictureBox27
+            // PB_ai5_smoke
             // 
-            this.pictureBox27.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
-            this.pictureBox27.Location = new System.Drawing.Point(377, 71);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(63, 30);
-            this.pictureBox27.TabIndex = 126;
-            this.pictureBox27.TabStop = false;
+            this.PB_ai5_smoke.BackColor = System.Drawing.Color.Transparent;
+            this.PB_ai5_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai5_smoke.Image")));
+            this.PB_ai5_smoke.Location = new System.Drawing.Point(377, 71);
+            this.PB_ai5_smoke.Name = "PB_ai5_smoke";
+            this.PB_ai5_smoke.Size = new System.Drawing.Size(63, 30);
+            this.PB_ai5_smoke.TabIndex = 126;
+            this.PB_ai5_smoke.TabStop = false;
             // 
-            // pictureBox28
+            // PB_ai4_smoke
             // 
-            this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
-            this.pictureBox28.Location = new System.Drawing.Point(308, 71);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(63, 30);
-            this.pictureBox28.TabIndex = 127;
-            this.pictureBox28.TabStop = false;
+            this.PB_ai4_smoke.BackColor = System.Drawing.Color.Transparent;
+            this.PB_ai4_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai4_smoke.Image")));
+            this.PB_ai4_smoke.Location = new System.Drawing.Point(308, 71);
+            this.PB_ai4_smoke.Name = "PB_ai4_smoke";
+            this.PB_ai4_smoke.Size = new System.Drawing.Size(63, 30);
+            this.PB_ai4_smoke.TabIndex = 127;
+            this.PB_ai4_smoke.TabStop = false;
             // 
-            // pictureBox29
+            // PB_ai3_smoke
             // 
-            this.pictureBox29.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
-            this.pictureBox29.Location = new System.Drawing.Point(239, 71);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(63, 30);
-            this.pictureBox29.TabIndex = 128;
-            this.pictureBox29.TabStop = false;
+            this.PB_ai3_smoke.BackColor = System.Drawing.Color.Transparent;
+            this.PB_ai3_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai3_smoke.Image")));
+            this.PB_ai3_smoke.Location = new System.Drawing.Point(239, 71);
+            this.PB_ai3_smoke.Name = "PB_ai3_smoke";
+            this.PB_ai3_smoke.Size = new System.Drawing.Size(63, 30);
+            this.PB_ai3_smoke.TabIndex = 128;
+            this.PB_ai3_smoke.TabStop = false;
             // 
-            // pictureBox30
+            // PB_ai2_smoke
             // 
-            this.pictureBox30.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox30.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox30.Image")));
-            this.pictureBox30.Location = new System.Drawing.Point(170, 71);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(63, 30);
-            this.pictureBox30.TabIndex = 129;
-            this.pictureBox30.TabStop = false;
+            this.PB_ai2_smoke.BackColor = System.Drawing.Color.Transparent;
+            this.PB_ai2_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai2_smoke.Image")));
+            this.PB_ai2_smoke.Location = new System.Drawing.Point(170, 71);
+            this.PB_ai2_smoke.Name = "PB_ai2_smoke";
+            this.PB_ai2_smoke.Size = new System.Drawing.Size(63, 30);
+            this.PB_ai2_smoke.TabIndex = 129;
+            this.PB_ai2_smoke.TabStop = false;
             // 
-            // pictureBox31
+            // PB_ai1_smoke
             // 
-            this.pictureBox31.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox31.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox31.Image")));
-            this.pictureBox31.Location = new System.Drawing.Point(101, 71);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(63, 30);
-            this.pictureBox31.TabIndex = 130;
-            this.pictureBox31.TabStop = false;
+            this.PB_ai1_smoke.BackColor = System.Drawing.Color.Transparent;
+            this.PB_ai1_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai1_smoke.Image")));
+            this.PB_ai1_smoke.Location = new System.Drawing.Point(101, 71);
+            this.PB_ai1_smoke.Name = "PB_ai1_smoke";
+            this.PB_ai1_smoke.Size = new System.Drawing.Size(63, 30);
+            this.PB_ai1_smoke.TabIndex = 130;
+            this.PB_ai1_smoke.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1902, 673);
-            this.Controls.Add(this.pictureBox31);
-            this.Controls.Add(this.pictureBox30);
-            this.Controls.Add(this.pictureBox29);
-            this.Controls.Add(this.pictureBox28);
-            this.Controls.Add(this.pictureBox27);
-            this.Controls.Add(this.pictureBox26);
-            this.Controls.Add(this.pictureBox25);
-            this.Controls.Add(this.pictureBox24);
-            this.Controls.Add(this.pictureBox23);
-            this.Controls.Add(this.pictureBox22);
+            this.Controls.Add(this.PB_ai1_smoke);
+            this.Controls.Add(this.PB_ai2_smoke);
+            this.Controls.Add(this.PB_ai3_smoke);
+            this.Controls.Add(this.PB_ai4_smoke);
+            this.Controls.Add(this.PB_ai5_smoke);
+            this.Controls.Add(this.PB_ai6_smoke);
+            this.Controls.Add(this.PB_ai7_smoke);
+            this.Controls.Add(this.PB_ai8_smoke);
+            this.Controls.Add(this.PB_ai9_smoke);
+            this.Controls.Add(this.PB_ai10_smoke);
             this.Controls.Add(this.PB_unit10_smoke);
             this.Controls.Add(this.PB_unit9_smoke);
             this.Controls.Add(this.PB_unit8_smoke);
@@ -1481,16 +1481,16 @@
             this.Controls.Add(this.BU_unit3_move);
             this.Controls.Add(this.BU_unit2_move);
             this.Controls.Add(this.BU_unit1_move);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox16);
-            this.Controls.Add(this.pictureBox17);
-            this.Controls.Add(this.pictureBox18);
-            this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox20);
+            this.Controls.Add(this.PB_ai5);
+            this.Controls.Add(this.PB_ai4);
+            this.Controls.Add(this.PB_ai3);
+            this.Controls.Add(this.PB_ai2);
+            this.Controls.Add(this.PB_ai1);
+            this.Controls.Add(this.PB_ai10);
+            this.Controls.Add(this.PB_ai9);
+            this.Controls.Add(this.PB_ai8);
+            this.Controls.Add(this.PB_ai7);
+            this.Controls.Add(this.PB_ai6);
             this.Controls.Add(this.PB_unit5);
             this.Controls.Add(this.PB_unit4);
             this.Controls.Add(this.PB_unit3);
@@ -1564,16 +1564,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit1_smoke)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit2_smoke)).EndInit();
@@ -1585,16 +1585,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit8_smoke)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit9_smoke)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_unit10_smoke)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai10_smoke)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai9_smoke)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai8_smoke)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai7_smoke)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai6_smoke)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai5_smoke)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai4_smoke)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai3_smoke)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai2_smoke)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_ai1_smoke)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1661,15 +1661,15 @@
         private System.Windows.Forms.PictureBox PB_unit4;
         private System.Windows.Forms.PictureBox PB_unit2;
         private System.Windows.Forms.PictureBox PB_unit1;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox PB_ai5;
+        private System.Windows.Forms.PictureBox PB_ai4;
+        private System.Windows.Forms.PictureBox PB_ai3;
+        private System.Windows.Forms.PictureBox PB_ai2;
+        private System.Windows.Forms.PictureBox PB_ai10;
+        private System.Windows.Forms.PictureBox PB_ai9;
+        private System.Windows.Forms.PictureBox PB_ai8;
+        private System.Windows.Forms.PictureBox PB_ai7;
+        private System.Windows.Forms.PictureBox PB_ai6;
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.Button BU_unit1_move;
         private System.Windows.Forms.Button BU_unit2_move;
@@ -1693,7 +1693,7 @@
         private System.Windows.Forms.Button BU_unit10_shoot;
         private System.Windows.Forms.PictureBox PB_unit3;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox PB_ai1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -1724,16 +1724,16 @@
         private System.Windows.Forms.PictureBox PB_unit8_smoke;
         private System.Windows.Forms.PictureBox PB_unit9_smoke;
         private System.Windows.Forms.PictureBox PB_unit10_smoke;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.PictureBox pictureBox26;
-        private System.Windows.Forms.PictureBox pictureBox27;
-        private System.Windows.Forms.PictureBox pictureBox28;
-        private System.Windows.Forms.PictureBox pictureBox29;
-        private System.Windows.Forms.PictureBox pictureBox30;
-        private System.Windows.Forms.PictureBox pictureBox31;
+        private System.Windows.Forms.PictureBox PB_ai10_smoke;
+        private System.Windows.Forms.PictureBox PB_ai9_smoke;
+        private System.Windows.Forms.PictureBox PB_ai8_smoke;
+        private System.Windows.Forms.PictureBox PB_ai7_smoke;
+        private System.Windows.Forms.PictureBox PB_ai6_smoke;
+        private System.Windows.Forms.PictureBox PB_ai5_smoke;
+        private System.Windows.Forms.PictureBox PB_ai4_smoke;
+        private System.Windows.Forms.PictureBox PB_ai3_smoke;
+        private System.Windows.Forms.PictureBox PB_ai2_smoke;
+        private System.Windows.Forms.PictureBox PB_ai1_smoke;
     }
 }
 

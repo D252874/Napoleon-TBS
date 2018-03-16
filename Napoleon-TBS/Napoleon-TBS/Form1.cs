@@ -74,6 +74,29 @@ namespace Napoleon_TBS
             PB_unit9_smoke.Visible = false;
             PB_unit10_smoke.Visible = false;
 
+            PB_ai1_smoke.Visible = false;
+            PB_ai2_smoke.Visible = false;
+            PB_ai3_smoke.Visible = false;
+            PB_ai4_smoke.Visible = false;
+            PB_ai5_smoke.Visible = false;
+            PB_ai6_smoke.Visible = false;
+            PB_ai7_smoke.Visible = false;
+            PB_ai8_smoke.Visible = false;
+            PB_ai9_smoke.Visible = false;
+            PB_ai10_smoke.Visible = false;
+
+            PB_ai1_smoke.Image.RotateFlip(RotateFlipType.Rotate180FlipX);
+            PB_ai2_smoke.Image.RotateFlip(RotateFlipType.Rotate180FlipX);
+            PB_ai3_smoke.Image.RotateFlip(RotateFlipType.Rotate180FlipX);
+            PB_ai4_smoke.Image.RotateFlip(RotateFlipType.Rotate180FlipX);
+            PB_ai5_smoke.Image.RotateFlip(RotateFlipType.Rotate180FlipX);
+            PB_ai6_smoke.Image.RotateFlip(RotateFlipType.Rotate180FlipX);
+            PB_ai7_smoke.Image.RotateFlip(RotateFlipType.Rotate180FlipX);
+            PB_ai8_smoke.Image.RotateFlip(RotateFlipType.Rotate180FlipX);
+            PB_ai9_smoke.Image.RotateFlip(RotateFlipType.Rotate180FlipX);
+            PB_ai10_smoke.Image.RotateFlip(RotateFlipType.Rotate180FlipX);
+
+
         }
 
         private void BU_unit1_move_Click(object sender, EventArgs e)
