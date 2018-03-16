@@ -748,7 +748,7 @@
             // PB_ai5
             // 
             this.PB_ai5.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai5.Image")));
-            this.PB_ai5.Location = new System.Drawing.Point(377, 37);
+            this.PB_ai5.Location = new System.Drawing.Point(377, 40);
             this.PB_ai5.Name = "PB_ai5";
             this.PB_ai5.Size = new System.Drawing.Size(63, 28);
             this.PB_ai5.TabIndex = 69;
@@ -757,7 +757,7 @@
             // PB_ai4
             // 
             this.PB_ai4.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai4.Image")));
-            this.PB_ai4.Location = new System.Drawing.Point(308, 37);
+            this.PB_ai4.Location = new System.Drawing.Point(308, 40);
             this.PB_ai4.Name = "PB_ai4";
             this.PB_ai4.Size = new System.Drawing.Size(63, 28);
             this.PB_ai4.TabIndex = 68;
@@ -766,7 +766,7 @@
             // PB_ai3
             // 
             this.PB_ai3.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai3.Image")));
-            this.PB_ai3.Location = new System.Drawing.Point(239, 37);
+            this.PB_ai3.Location = new System.Drawing.Point(239, 40);
             this.PB_ai3.Name = "PB_ai3";
             this.PB_ai3.Size = new System.Drawing.Size(63, 28);
             this.PB_ai3.TabIndex = 67;
@@ -775,7 +775,7 @@
             // PB_ai2
             // 
             this.PB_ai2.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai2.Image")));
-            this.PB_ai2.Location = new System.Drawing.Point(170, 37);
+            this.PB_ai2.Location = new System.Drawing.Point(170, 40);
             this.PB_ai2.Name = "PB_ai2";
             this.PB_ai2.Size = new System.Drawing.Size(63, 28);
             this.PB_ai2.TabIndex = 66;
@@ -785,7 +785,7 @@
             // 
             this.PB_ai1.BackColor = System.Drawing.Color.Transparent;
             this.PB_ai1.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai1.Image")));
-            this.PB_ai1.Location = new System.Drawing.Point(101, 37);
+            this.PB_ai1.Location = new System.Drawing.Point(101, 40);
             this.PB_ai1.Name = "PB_ai1";
             this.PB_ai1.Size = new System.Drawing.Size(63, 28);
             this.PB_ai1.TabIndex = 65;
@@ -794,7 +794,7 @@
             // PB_ai10
             // 
             this.PB_ai10.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai10.Image")));
-            this.PB_ai10.Location = new System.Drawing.Point(726, 37);
+            this.PB_ai10.Location = new System.Drawing.Point(726, 40);
             this.PB_ai10.Name = "PB_ai10";
             this.PB_ai10.Size = new System.Drawing.Size(63, 28);
             this.PB_ai10.TabIndex = 64;
@@ -803,7 +803,7 @@
             // PB_ai9
             // 
             this.PB_ai9.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai9.Image")));
-            this.PB_ai9.Location = new System.Drawing.Point(657, 37);
+            this.PB_ai9.Location = new System.Drawing.Point(657, 40);
             this.PB_ai9.Name = "PB_ai9";
             this.PB_ai9.Size = new System.Drawing.Size(63, 28);
             this.PB_ai9.TabIndex = 63;
@@ -812,7 +812,7 @@
             // PB_ai8
             // 
             this.PB_ai8.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai8.Image")));
-            this.PB_ai8.Location = new System.Drawing.Point(588, 37);
+            this.PB_ai8.Location = new System.Drawing.Point(588, 40);
             this.PB_ai8.Name = "PB_ai8";
             this.PB_ai8.Size = new System.Drawing.Size(63, 28);
             this.PB_ai8.TabIndex = 62;
@@ -821,7 +821,7 @@
             // PB_ai7
             // 
             this.PB_ai7.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai7.Image")));
-            this.PB_ai7.Location = new System.Drawing.Point(519, 37);
+            this.PB_ai7.Location = new System.Drawing.Point(519, 40);
             this.PB_ai7.Name = "PB_ai7";
             this.PB_ai7.Size = new System.Drawing.Size(63, 28);
             this.PB_ai7.TabIndex = 61;
@@ -830,7 +830,7 @@
             // PB_ai6
             // 
             this.PB_ai6.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai6.Image")));
-            this.PB_ai6.Location = new System.Drawing.Point(450, 37);
+            this.PB_ai6.Location = new System.Drawing.Point(450, 40);
             this.PB_ai6.Name = "PB_ai6";
             this.PB_ai6.Size = new System.Drawing.Size(63, 28);
             this.PB_ai6.TabIndex = 60;
@@ -1331,7 +1331,7 @@
             // 
             this.PB_ai10_smoke.BackColor = System.Drawing.Color.Transparent;
             this.PB_ai10_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai10_smoke.Image")));
-            this.PB_ai10_smoke.Location = new System.Drawing.Point(726, 71);
+            this.PB_ai10_smoke.Location = new System.Drawing.Point(726, 74);
             this.PB_ai10_smoke.Name = "PB_ai10_smoke";
             this.PB_ai10_smoke.Size = new System.Drawing.Size(63, 30);
             this.PB_ai10_smoke.TabIndex = 121;
@@ -1341,7 +1341,7 @@
             // 
             this.PB_ai9_smoke.BackColor = System.Drawing.Color.Transparent;
             this.PB_ai9_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai9_smoke.Image")));
-            this.PB_ai9_smoke.Location = new System.Drawing.Point(657, 71);
+            this.PB_ai9_smoke.Location = new System.Drawing.Point(657, 74);
             this.PB_ai9_smoke.Name = "PB_ai9_smoke";
             this.PB_ai9_smoke.Size = new System.Drawing.Size(63, 30);
             this.PB_ai9_smoke.TabIndex = 122;
@@ -1351,7 +1351,7 @@
             // 
             this.PB_ai8_smoke.BackColor = System.Drawing.Color.Transparent;
             this.PB_ai8_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai8_smoke.Image")));
-            this.PB_ai8_smoke.Location = new System.Drawing.Point(588, 71);
+            this.PB_ai8_smoke.Location = new System.Drawing.Point(588, 74);
             this.PB_ai8_smoke.Name = "PB_ai8_smoke";
             this.PB_ai8_smoke.Size = new System.Drawing.Size(63, 30);
             this.PB_ai8_smoke.TabIndex = 123;
@@ -1361,7 +1361,7 @@
             // 
             this.PB_ai7_smoke.BackColor = System.Drawing.Color.Transparent;
             this.PB_ai7_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai7_smoke.Image")));
-            this.PB_ai7_smoke.Location = new System.Drawing.Point(519, 71);
+            this.PB_ai7_smoke.Location = new System.Drawing.Point(519, 74);
             this.PB_ai7_smoke.Name = "PB_ai7_smoke";
             this.PB_ai7_smoke.Size = new System.Drawing.Size(63, 30);
             this.PB_ai7_smoke.TabIndex = 124;
@@ -1371,7 +1371,7 @@
             // 
             this.PB_ai6_smoke.BackColor = System.Drawing.Color.Transparent;
             this.PB_ai6_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai6_smoke.Image")));
-            this.PB_ai6_smoke.Location = new System.Drawing.Point(450, 71);
+            this.PB_ai6_smoke.Location = new System.Drawing.Point(450, 74);
             this.PB_ai6_smoke.Name = "PB_ai6_smoke";
             this.PB_ai6_smoke.Size = new System.Drawing.Size(63, 30);
             this.PB_ai6_smoke.TabIndex = 125;
@@ -1381,7 +1381,7 @@
             // 
             this.PB_ai5_smoke.BackColor = System.Drawing.Color.Transparent;
             this.PB_ai5_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai5_smoke.Image")));
-            this.PB_ai5_smoke.Location = new System.Drawing.Point(377, 71);
+            this.PB_ai5_smoke.Location = new System.Drawing.Point(377, 74);
             this.PB_ai5_smoke.Name = "PB_ai5_smoke";
             this.PB_ai5_smoke.Size = new System.Drawing.Size(63, 30);
             this.PB_ai5_smoke.TabIndex = 126;
@@ -1391,7 +1391,7 @@
             // 
             this.PB_ai4_smoke.BackColor = System.Drawing.Color.Transparent;
             this.PB_ai4_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai4_smoke.Image")));
-            this.PB_ai4_smoke.Location = new System.Drawing.Point(308, 71);
+            this.PB_ai4_smoke.Location = new System.Drawing.Point(308, 74);
             this.PB_ai4_smoke.Name = "PB_ai4_smoke";
             this.PB_ai4_smoke.Size = new System.Drawing.Size(63, 30);
             this.PB_ai4_smoke.TabIndex = 127;
@@ -1401,7 +1401,7 @@
             // 
             this.PB_ai3_smoke.BackColor = System.Drawing.Color.Transparent;
             this.PB_ai3_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai3_smoke.Image")));
-            this.PB_ai3_smoke.Location = new System.Drawing.Point(239, 71);
+            this.PB_ai3_smoke.Location = new System.Drawing.Point(239, 74);
             this.PB_ai3_smoke.Name = "PB_ai3_smoke";
             this.PB_ai3_smoke.Size = new System.Drawing.Size(63, 30);
             this.PB_ai3_smoke.TabIndex = 128;
@@ -1411,7 +1411,7 @@
             // 
             this.PB_ai2_smoke.BackColor = System.Drawing.Color.Transparent;
             this.PB_ai2_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai2_smoke.Image")));
-            this.PB_ai2_smoke.Location = new System.Drawing.Point(170, 71);
+            this.PB_ai2_smoke.Location = new System.Drawing.Point(170, 74);
             this.PB_ai2_smoke.Name = "PB_ai2_smoke";
             this.PB_ai2_smoke.Size = new System.Drawing.Size(63, 30);
             this.PB_ai2_smoke.TabIndex = 129;
@@ -1421,7 +1421,7 @@
             // 
             this.PB_ai1_smoke.BackColor = System.Drawing.Color.Transparent;
             this.PB_ai1_smoke.Image = ((System.Drawing.Image)(resources.GetObject("PB_ai1_smoke.Image")));
-            this.PB_ai1_smoke.Location = new System.Drawing.Point(101, 71);
+            this.PB_ai1_smoke.Location = new System.Drawing.Point(101, 74);
             this.PB_ai1_smoke.Name = "PB_ai1_smoke";
             this.PB_ai1_smoke.Size = new System.Drawing.Size(63, 30);
             this.PB_ai1_smoke.TabIndex = 130;

@@ -14,6 +14,9 @@ namespace Napoleon_TBS
     {
 
         int move = 10;
+
+        
+
         Regiment regiment1 = new Regiment("1. infantry");
         Regiment regiment2 = new Regiment("2. infantry");
         Regiment regiment3 = new Regiment("3. infantry");
@@ -25,10 +28,23 @@ namespace Napoleon_TBS
         Regiment regiment9 = new Regiment("9. infantry");
         Regiment regiment10 = new Regiment("10. infantry");
 
+        Regiment ai_regiment1 = new Regiment("1. infantry");
+        Regiment ai_regiment2 = new Regiment("1. infantry");
+        Regiment ai_regiment3 = new Regiment("1. infantry");
+        Regiment ai_regiment4 = new Regiment("1. infantry");
+        Regiment ai_regiment5 = new Regiment("1. infantry");
+        Regiment ai_regiment6 = new Regiment("1. infantry");
+        Regiment ai_regiment7 = new Regiment("1. infantry");
+        Regiment ai_regiment8 = new Regiment("1. infantry");
+        Regiment ai_regiment9 = new Regiment("1. infantry");
+        Regiment ai_regiment10 = new Regiment("1. infantry");
+
+        
+
 
         public Form1()
         {
-            PB_unit1.Parent = pictureBox21;
+                
             InitializeComponent();
             LBL_unit1_mp.Text = Convert.ToString(regiment1.GetManpower());
             LBL_unit2_mp.Text = Convert.ToString(regiment2.GetManpower());
@@ -97,6 +113,17 @@ namespace Napoleon_TBS
             PB_ai9_smoke.Image.RotateFlip(RotateFlipType.Rotate180FlipX);
             PB_ai10_smoke.Image.RotateFlip(RotateFlipType.Rotate180FlipX);
 
+            BU_unit1_shoot.Enabled = false;
+            BU_unit2_shoot.Enabled = false;
+            BU_unit3_shoot.Enabled = false;
+            BU_unit4_shoot.Enabled = false;
+            BU_unit5_shoot.Enabled = false;
+            BU_unit6_shoot.Enabled = false;
+            BU_unit7_shoot.Enabled = false;
+            BU_unit8_shoot.Enabled = false;
+            BU_unit9_shoot.Enabled = false;
+            BU_unit10_shoot.Enabled = false;
+
 
         }
 
@@ -105,24 +132,56 @@ namespace Napoleon_TBS
             
             PB_unit1.Location = new Point(PB_unit1.Location.X, PB_unit1.Location.Y - move);
             PB_unit1_smoke.Location = new Point(PB_unit1_smoke.Location.X, PB_unit1_smoke.Location.Y - move);
+
+            regiment1.SetRange(move);
+            if (regiment1.CheckRange())
+            {
+                BU_unit1_shoot.Enabled = true;
+            }
+            regiment1.Shoot();
+            
         }
 
         private void BU_unit2_move_Click(object sender, EventArgs e)
         {
             PB_unit2.Location = new Point(PB_unit2.Location.X, PB_unit2.Location.Y - move);
             PB_unit2_smoke.Location = new Point(PB_unit2_smoke.Location.X, PB_unit2_smoke.Location.Y - move);
+
+            regiment2.SetRange(move);
+            if (regiment2.CheckRange())
+            {
+                BU_unit2_shoot.Enabled = true;
+            }
+            regiment2.Shoot();
+
         }
 
         private void BU_unit3_move_Click(object sender, EventArgs e)
         {
             PB_unit3.Location = new Point(PB_unit3.Location.X, PB_unit3.Location.Y - move);
             PB_unit3_smoke.Location = new Point(PB_unit3_smoke.Location.X, PB_unit3_smoke.Location.Y - move);
+
+            regiment3.SetRange(move);
+            if (regiment3.CheckRange())
+            {
+                BU_unit3_shoot.Enabled = true;
+            }
+            regiment3.Shoot();
+
         }
 
         private void BU_unit4_move_Click(object sender, EventArgs e)
         {
             PB_unit4.Location = new Point(PB_unit4.Location.X, PB_unit4.Location.Y - move);
             PB_unit4_smoke.Location = new Point(PB_unit4_smoke.Location.X, PB_unit4_smoke.Location.Y - move);
+
+            regiment4.SetRange(move);
+            if (regiment4.CheckRange())
+            {
+                BU_unit4_shoot.Enabled = true;
+            }
+            regiment4.Shoot();
+
 
         }
 
@@ -131,6 +190,13 @@ namespace Napoleon_TBS
             PB_unit5.Location = new Point(PB_unit5.Location.X, PB_unit5.Location.Y - move);
             PB_unit5_smoke.Location = new Point(PB_unit5_smoke.Location.X, PB_unit5_smoke.Location.Y - move);
 
+            regiment5.SetRange(move);
+            if (regiment5.CheckRange())
+            {
+                BU_unit5_shoot.Enabled = true;
+            }
+            regiment5.Shoot();
+
         }
 
         private void BU_unit6_move_Click(object sender, EventArgs e)
@@ -138,30 +204,68 @@ namespace Napoleon_TBS
             PB_unit6.Location = new Point(PB_unit6.Location.X, PB_unit6.Location.Y - move);
             PB_unit6_smoke.Location = new Point(PB_unit6_smoke.Location.X, PB_unit6_smoke.Location.Y - move);
 
+            regiment6.SetRange(move);
+            if (regiment6.CheckRange())
+            {
+                BU_unit6_shoot.Enabled = true;
+            }
+            regiment6.Shoot();
+
         }
 
         private void BU_unit7_move_Click(object sender, EventArgs e)
         {
             PB_unit7.Location = new Point(PB_unit7.Location.X, PB_unit7.Location.Y - move);
-            PB_unit8_smoke.Location = new Point(PB_unit8_smoke.Location.X, PB_unit8_smoke.Location.Y - move);
+            PB_unit7_smoke.Location = new Point(PB_unit7_smoke.Location.X, PB_unit7_smoke.Location.Y - move);
+
+            regiment7.SetRange(move);
+            if (regiment7.CheckRange())
+            {
+                BU_unit7_shoot.Enabled = true;
+            }
+            regiment7.Shoot();
+
         }
 
         private void BU_unit8_move_Click(object sender, EventArgs e)
         {
             PB_unit8.Location = new Point(PB_unit8.Location.X, PB_unit8.Location.Y - move);
-            PB_unit9_smoke.Location = new Point(PB_unit9_smoke.Location.X, PB_unit9_smoke.Location.Y - move);
+            PB_unit8_smoke.Location = new Point(PB_unit8_smoke.Location.X, PB_unit8_smoke.Location.Y - move);
+
+            regiment8.SetRange(move);
+            if (regiment8.CheckRange())
+            {
+                BU_unit8_shoot.Enabled = true;
+            }
+            regiment8.Shoot();
+
         }
 
         private void BU_unit9_move_Click(object sender, EventArgs e)
         {
             PB_unit9.Location = new Point(PB_unit9.Location.X, PB_unit9.Location.Y - move);
-            PB_unit10_smoke.Location = new Point(PB_unit10_smoke.Location.X, PB_unit10_smoke.Location.Y - move);
+            PB_unit9_smoke.Location = new Point(PB_unit9_smoke.Location.X, PB_unit9_smoke.Location.Y - move);
+
+            regiment9.SetRange(move);
+            if (regiment9.CheckRange())
+            {
+                BU_unit9_shoot.Enabled = true;
+            }
+            regiment9.Shoot();
 
         }
 
         private void BU_unit10_move_Click(object sender, EventArgs e)
         {
             PB_unit10.Location = new Point(PB_unit10.Location.X, PB_unit10.Location.Y - move);
+            PB_unit10_smoke.Location = new Point(PB_unit10_smoke.Location.X, PB_unit10_smoke.Location.Y - move);
+
+            regiment10.SetRange(move);
+            if (regiment10.CheckRange())
+            {
+                BU_unit10_shoot.Enabled = true;
+            }
+            regiment10.Shoot();
 
         }
 
@@ -175,47 +279,75 @@ namespace Napoleon_TBS
 
         private void BU_unit2_shoot_Click(object sender, EventArgs e)
         {
+            var t = Task.Delay(500);
+            PB_unit2_smoke.Visible = true;
+            t.Wait();
+            PB_unit2_smoke.Visible = false;
 
         }
 
         private void BU_unit3_shoot_Click(object sender, EventArgs e)
         {
-
+            var t = Task.Delay(500);
+            PB_unit3_smoke.Visible = true;
+            t.Wait();
+            PB_unit3_smoke.Visible = false;
         }
 
         private void BU_unit4_shoot_Click(object sender, EventArgs e)
         {
-
+            var t = Task.Delay(500);
+            PB_unit4_smoke.Visible = true;
+            t.Wait();
+            PB_unit4_smoke.Visible = false;
         }
 
         private void BU_unit5_shoot_Click(object sender, EventArgs e)
         {
-
+            var t = Task.Delay(500);
+            PB_unit5_smoke.Visible = true;
+            t.Wait();
+            PB_unit5_smoke.Visible = false;
         }
 
         private void BU_unit6_shoot_Click(object sender, EventArgs e)
         {
-
+            var t = Task.Delay(500);
+            PB_unit6_smoke.Visible = true;
+            t.Wait();
+            PB_unit6_smoke.Visible = false;
         }
 
         private void BU_unit7_shoot_Click(object sender, EventArgs e)
         {
-
+            var t = Task.Delay(500);
+            PB_unit7_smoke.Visible = true;
+            t.Wait();
+            PB_unit7_smoke.Visible = false;
         }
 
         private void BU_unit8_shoot_Click(object sender, EventArgs e)
         {
-
+            var t = Task.Delay(500);
+            PB_unit8_smoke.Visible = true;
+            t.Wait();
+            PB_unit8_smoke.Visible = false;
         }
 
         private void BU_unit9_shoot_Click(object sender, EventArgs e)
         {
-
+            var t = Task.Delay(500);
+            PB_unit9_smoke.Visible = true;
+            t.Wait();
+            PB_unit9_smoke.Visible = false;
         }
 
         private void BU_unit10_shoot_Click(object sender, EventArgs e)
         {
-
+            var t = Task.Delay(500);
+            PB_unit10_smoke.Visible = true;
+            t.Wait();
+            PB_unit10_smoke.Visible = false;
         }
     }
 }
